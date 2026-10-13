@@ -20,7 +20,3 @@ Static portfolio site for [charlestalbotart.com](https://www.charlestalbotart.co
 3. Preview locally with `python3 -m http.server 8000` and open http://localhost:8000.
 
 Photos should be JPEGs around 1800px on the long edge, with GPS/location metadata stripped.
-
-## Legacy
-
-The old 2015 `app/` front end and its Grunt/Bower files are still in the repo and can be deleted.
