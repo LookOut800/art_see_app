@@ -1,0 +1,1363 @@
+{
+  "title": "Charles Talbot Studio",
+  "projects": [
+    {
+      "slug": "two-pots",
+      "title": "Two pots",
+      "section": "none",
+      "date": "2016",
+      "cover": {
+        "file": "images/two-pots/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/two-pots/cover.jpg",
+          "w": 400,
+          "h": 268,
+          "alt": "Two pots"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "brittany",
+      "title": "Brittany",
+      "section": "recent",
+      "date": "2022",
+      "cover": {
+        "file": "images/brittany/cover.jpg",
+        "w": 600,
+        "h": 624
+      },
+      "images": [
+        {
+          "file": "images/brittany/01.jpg",
+          "w": 1280,
+          "h": 953,
+          "alt": "Brittany, image 1"
+        },
+        {
+          "file": "images/brittany/02.jpg",
+          "w": 1280,
+          "h": 954,
+          "alt": "Brittany, image 2"
+        },
+        {
+          "file": "images/brittany/03.jpg",
+          "w": 1280,
+          "h": 960,
+          "alt": "Brittany, image 3"
+        },
+        {
+          "file": "images/brittany/04.jpg",
+          "w": 1280,
+          "h": 953,
+          "alt": "Brittany, image 4"
+        },
+        {
+          "file": "images/brittany/05.jpg",
+          "w": 1280,
+          "h": 954,
+          "alt": "Brittany, image 5"
+        },
+        {
+          "file": "images/brittany/06.jpg",
+          "w": 1800,
+          "h": 1330,
+          "alt": "Brittany, image 6"
+        },
+        {
+          "file": "images/brittany/07.jpg",
+          "w": 1280,
+          "h": 960,
+          "alt": "Brittany, image 7"
+        },
+        {
+          "file": "images/brittany/08.jpg",
+          "w": 1280,
+          "h": 949,
+          "alt": "Brittany, image 8"
+        },
+        {
+          "file": "images/brittany/09.jpg",
+          "w": 1280,
+          "h": 955,
+          "alt": "Brittany, image 9"
+        },
+        {
+          "file": "images/brittany/10.jpg",
+          "w": 1280,
+          "h": 951,
+          "alt": "Brittany, image 10"
+        },
+        {
+          "file": "images/brittany/11.jpg",
+          "w": 1280,
+          "h": 951,
+          "alt": "Brittany, image 11"
+        },
+        {
+          "file": "images/brittany/12.jpg",
+          "w": 1280,
+          "h": 946,
+          "alt": "Brittany, image 12"
+        },
+        {
+          "file": "images/brittany/13.jpg",
+          "w": 1280,
+          "h": 1550,
+          "alt": "Brittany, image 13"
+        },
+        {
+          "file": "images/brittany/14.jpg",
+          "w": 1280,
+          "h": 1723,
+          "alt": "Brittany, image 14"
+        },
+        {
+          "file": "images/brittany/15.jpg",
+          "w": 1280,
+          "h": 954,
+          "alt": "Brittany, image 15"
+        },
+        {
+          "file": "images/brittany/16.jpg",
+          "w": 1280,
+          "h": 960,
+          "alt": "Brittany, image 16"
+        }
+      ],
+      "description": "A collection of paintings and pottery for the Brittany art gallery in Vallejo California",
+      "details": {}
+    },
+    {
+      "slug": "pots-2024",
+      "title": "Pots 2024",
+      "section": "recent",
+      "date": "",
+      "cover": {
+        "file": "images/pots-2024/cover.jpg",
+        "w": 480,
+        "h": 600
+      },
+      "images": [
+        {
+          "file": "images/pots-2024/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Pots 2024, image 1"
+        },
+        {
+          "file": "images/pots-2024/02.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 2"
+        },
+        {
+          "file": "images/pots-2024/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Pots 2024, image 3"
+        },
+        {
+          "file": "images/pots-2024/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Pots 2024, image 4"
+        },
+        {
+          "file": "images/pots-2024/05.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 5"
+        },
+        {
+          "file": "images/pots-2024/06.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 6"
+        },
+        {
+          "file": "images/pots-2024/07.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 7"
+        },
+        {
+          "file": "images/pots-2024/08.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 8"
+        },
+        {
+          "file": "images/pots-2024/09.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Pots 2024, image 9"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "cut-bonnet-vase",
+      "title": "Cut Bonnet Vase",
+      "section": "recent",
+      "date": "",
+      "cover": {
+        "file": "images/cut-bonnet-vase/cover.jpg",
+        "w": 400,
+        "h": 600
+      },
+      "images": [
+        {
+          "file": "images/cut-bonnet-vase/01.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Cut Bonnet Vase, image 1"
+        },
+        {
+          "file": "images/cut-bonnet-vase/02.jpg",
+          "w": 1163,
+          "h": 1800,
+          "alt": "Cut Bonnet Vase, image 2"
+        },
+        {
+          "file": "images/cut-bonnet-vase/03.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Cut Bonnet Vase, image 3"
+        },
+        {
+          "file": "images/cut-bonnet-vase/04.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Cut Bonnet Vase, image 4"
+        },
+        {
+          "file": "images/cut-bonnet-vase/05.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Cut Bonnet Vase, image 5"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "tea-pottery-1",
+      "title": "Tea pottery",
+      "section": "none",
+      "date": "",
+      "cover": {
+        "file": "images/tea-pottery-1/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/tea-pottery-1/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 1"
+        },
+        {
+          "file": "images/tea-pottery-1/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 2"
+        },
+        {
+          "file": "images/tea-pottery-1/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 3"
+        },
+        {
+          "file": "images/tea-pottery-1/04.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 4"
+        },
+        {
+          "file": "images/tea-pottery-1/05.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 5"
+        },
+        {
+          "file": "images/tea-pottery-1/06.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 6"
+        },
+        {
+          "file": "images/tea-pottery-1/07.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 7"
+        },
+        {
+          "file": "images/tea-pottery-1/08.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 8"
+        },
+        {
+          "file": "images/tea-pottery-1/09.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 9"
+        },
+        {
+          "file": "images/tea-pottery-1/10.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 10"
+        },
+        {
+          "file": "images/tea-pottery-1/11.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 11"
+        },
+        {
+          "file": "images/tea-pottery-1/12.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 12"
+        },
+        {
+          "file": "images/tea-pottery-1/13.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 13"
+        },
+        {
+          "file": "images/tea-pottery-1/14.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 14"
+        },
+        {
+          "file": "images/tea-pottery-1/15.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 15"
+        },
+        {
+          "file": "images/tea-pottery-1/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 16"
+        },
+        {
+          "file": "images/tea-pottery-1/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 17"
+        },
+        {
+          "file": "images/tea-pottery-1/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 18"
+        },
+        {
+          "file": "images/tea-pottery-1/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 19"
+        },
+        {
+          "file": "images/tea-pottery-1/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 20"
+        },
+        {
+          "file": "images/tea-pottery-1/21.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 21"
+        },
+        {
+          "file": "images/tea-pottery-1/22.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 22"
+        },
+        {
+          "file": "images/tea-pottery-1/23.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 23"
+        },
+        {
+          "file": "images/tea-pottery-1/24.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 24"
+        },
+        {
+          "file": "images/tea-pottery-1/25.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 25"
+        },
+        {
+          "file": "images/tea-pottery-1/26.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 26"
+        },
+        {
+          "file": "images/tea-pottery-1/27.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 27"
+        },
+        {
+          "file": "images/tea-pottery-1/28.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 28"
+        },
+        {
+          "file": "images/tea-pottery-1/29.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 29"
+        },
+        {
+          "file": "images/tea-pottery-1/30.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 30"
+        },
+        {
+          "file": "images/tea-pottery-1/31.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 31"
+        },
+        {
+          "file": "images/tea-pottery-1/32.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 32"
+        },
+        {
+          "file": "images/tea-pottery-1/33.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 33"
+        },
+        {
+          "file": "images/tea-pottery-1/34.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 34"
+        },
+        {
+          "file": "images/tea-pottery-1/35.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 35"
+        },
+        {
+          "file": "images/tea-pottery-1/36.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 36"
+        },
+        {
+          "file": "images/tea-pottery-1/37.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 37"
+        },
+        {
+          "file": "images/tea-pottery-1/38.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 38"
+        },
+        {
+          "file": "images/tea-pottery-1/39.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 39"
+        },
+        {
+          "file": "images/tea-pottery-1/40.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 40"
+        },
+        {
+          "file": "images/tea-pottery-1/41.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 41"
+        },
+        {
+          "file": "images/tea-pottery-1/42.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 42"
+        },
+        {
+          "file": "images/tea-pottery-1/43.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 43"
+        },
+        {
+          "file": "images/tea-pottery-1/44.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 44"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "painted-lyric-bowls-s-s",
+      "title": "Painted Lyric Bowls, S/S",
+      "section": "none",
+      "date": "2018",
+      "cover": {
+        "file": "images/painted-lyric-bowls-s-s/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/painted-lyric-bowls-s-s/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 1"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 2"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 3"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/04.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 4"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/05.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 5"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/06.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 6"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/07.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 7"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/08.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 8"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/09.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 9"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/10.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 10"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/11.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 11"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/12.jpg",
+          "w": 1280,
+          "h": 828,
+          "alt": "Painted Lyric Bowls, S/S, image 12"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/13.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 13"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/14.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 14"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/15.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 15"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 16"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 17"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 18"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 19"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 20"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/21.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 21"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/22.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 22"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/23.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 23"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/24.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 24"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/25.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 25"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/26.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 26"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/27.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Painted Lyric Bowls, S/S, image 27"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/28.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 28"
+        },
+        {
+          "file": "images/painted-lyric-bowls-s-s/29.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Painted Lyric Bowls, S/S, image 29"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "tea-pottery",
+      "title": "Tea pottery",
+      "section": "archives",
+      "date": "",
+      "cover": {
+        "file": "images/tea-pottery/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/tea-pottery/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 1"
+        },
+        {
+          "file": "images/tea-pottery/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 2"
+        },
+        {
+          "file": "images/tea-pottery/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 3"
+        },
+        {
+          "file": "images/tea-pottery/04.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 4"
+        },
+        {
+          "file": "images/tea-pottery/05.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 5"
+        },
+        {
+          "file": "images/tea-pottery/06.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 6"
+        },
+        {
+          "file": "images/tea-pottery/07.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 7"
+        },
+        {
+          "file": "images/tea-pottery/08.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 8"
+        },
+        {
+          "file": "images/tea-pottery/09.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 9"
+        },
+        {
+          "file": "images/tea-pottery/10.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 10"
+        },
+        {
+          "file": "images/tea-pottery/11.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 11"
+        },
+        {
+          "file": "images/tea-pottery/12.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 12"
+        },
+        {
+          "file": "images/tea-pottery/13.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 13"
+        },
+        {
+          "file": "images/tea-pottery/14.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 14"
+        },
+        {
+          "file": "images/tea-pottery/15.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 15"
+        },
+        {
+          "file": "images/tea-pottery/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 16"
+        },
+        {
+          "file": "images/tea-pottery/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 17"
+        },
+        {
+          "file": "images/tea-pottery/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 18"
+        },
+        {
+          "file": "images/tea-pottery/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 19"
+        },
+        {
+          "file": "images/tea-pottery/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 20"
+        },
+        {
+          "file": "images/tea-pottery/21.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 21"
+        },
+        {
+          "file": "images/tea-pottery/22.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 22"
+        },
+        {
+          "file": "images/tea-pottery/23.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 23"
+        },
+        {
+          "file": "images/tea-pottery/24.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 24"
+        },
+        {
+          "file": "images/tea-pottery/25.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 25"
+        },
+        {
+          "file": "images/tea-pottery/26.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 26"
+        },
+        {
+          "file": "images/tea-pottery/27.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 27"
+        },
+        {
+          "file": "images/tea-pottery/28.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 28"
+        },
+        {
+          "file": "images/tea-pottery/29.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 29"
+        },
+        {
+          "file": "images/tea-pottery/30.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 30"
+        },
+        {
+          "file": "images/tea-pottery/31.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 31"
+        },
+        {
+          "file": "images/tea-pottery/32.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 32"
+        },
+        {
+          "file": "images/tea-pottery/33.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 33"
+        },
+        {
+          "file": "images/tea-pottery/34.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 34"
+        },
+        {
+          "file": "images/tea-pottery/35.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 35"
+        },
+        {
+          "file": "images/tea-pottery/36.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 36"
+        },
+        {
+          "file": "images/tea-pottery/37.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 37"
+        },
+        {
+          "file": "images/tea-pottery/38.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 38"
+        },
+        {
+          "file": "images/tea-pottery/39.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 39"
+        },
+        {
+          "file": "images/tea-pottery/40.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 40"
+        },
+        {
+          "file": "images/tea-pottery/41.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 41"
+        },
+        {
+          "file": "images/tea-pottery/42.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 42"
+        },
+        {
+          "file": "images/tea-pottery/43.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 43"
+        },
+        {
+          "file": "images/tea-pottery/44.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 44"
+        },
+        {
+          "file": "images/tea-pottery/45.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 45"
+        },
+        {
+          "file": "images/tea-pottery/46.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 46"
+        },
+        {
+          "file": "images/tea-pottery/47.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 47"
+        },
+        {
+          "file": "images/tea-pottery/48.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 48"
+        },
+        {
+          "file": "images/tea-pottery/49.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 49"
+        },
+        {
+          "file": "images/tea-pottery/50.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 50"
+        },
+        {
+          "file": "images/tea-pottery/51.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 51"
+        },
+        {
+          "file": "images/tea-pottery/52.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 52"
+        },
+        {
+          "file": "images/tea-pottery/53.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 53"
+        },
+        {
+          "file": "images/tea-pottery/54.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 54"
+        },
+        {
+          "file": "images/tea-pottery/55.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 55"
+        },
+        {
+          "file": "images/tea-pottery/56.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 56"
+        },
+        {
+          "file": "images/tea-pottery/57.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 57"
+        },
+        {
+          "file": "images/tea-pottery/58.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 58"
+        },
+        {
+          "file": "images/tea-pottery/59.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 59"
+        },
+        {
+          "file": "images/tea-pottery/60.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 60"
+        },
+        {
+          "file": "images/tea-pottery/61.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 61"
+        },
+        {
+          "file": "images/tea-pottery/62.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 62"
+        },
+        {
+          "file": "images/tea-pottery/63.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 63"
+        },
+        {
+          "file": "images/tea-pottery/64.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 64"
+        },
+        {
+          "file": "images/tea-pottery/65.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 65"
+        },
+        {
+          "file": "images/tea-pottery/66.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea pottery, image 66"
+        },
+        {
+          "file": "images/tea-pottery/67.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea pottery, image 67"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "small-color-paintings",
+      "title": "Small Color Paintings",
+      "section": "archives",
+      "date": "2017",
+      "cover": {
+        "file": "images/small-color-paintings/cover.jpg",
+        "w": 600,
+        "h": 788
+      },
+      "images": [
+        {
+          "file": "images/small-color-paintings/01.jpg",
+          "w": 1172,
+          "h": 1532,
+          "alt": "Small Color Paintings, image 1"
+        },
+        {
+          "file": "images/small-color-paintings/02.jpg",
+          "w": 1381,
+          "h": 1800,
+          "alt": "Small Color Paintings, image 2"
+        },
+        {
+          "file": "images/small-color-paintings/03.jpg",
+          "w": 1042,
+          "h": 1301,
+          "alt": "Small Color Paintings, image 3"
+        },
+        {
+          "file": "images/small-color-paintings/04.jpg",
+          "w": 1166,
+          "h": 1448,
+          "alt": "Small Color Paintings, image 4"
+        },
+        {
+          "file": "images/small-color-paintings/05.jpg",
+          "w": 1117,
+          "h": 1458,
+          "alt": "Small Color Paintings, image 5"
+        },
+        {
+          "file": "images/small-color-paintings/06.jpg",
+          "w": 1406,
+          "h": 1779,
+          "alt": "Small Color Paintings, image 6"
+        },
+        {
+          "file": "images/small-color-paintings/07.jpg",
+          "w": 1365,
+          "h": 1679,
+          "alt": "Small Color Paintings, image 7"
+        },
+        {
+          "file": "images/small-color-paintings/08.jpg",
+          "w": 1274,
+          "h": 1646,
+          "alt": "Small Color Paintings, image 8"
+        },
+        {
+          "file": "images/small-color-paintings/09.jpg",
+          "w": 1038,
+          "h": 1363,
+          "alt": "Small Color Paintings, image 9"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "tall-sprayed-vase-and-handled-vase",
+      "title": "Tall Sprayed Vase and Handled Vase",
+      "section": "archives",
+      "date": "January 2016",
+      "cover": {
+        "file": "images/tall-sprayed-vase-and-handled-vase/cover.jpg",
+        "w": 576,
+        "h": 800
+      },
+      "images": [
+        {
+          "file": "images/tall-sprayed-vase-and-handled-vase/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Tall Sprayed Vase and Handled Vase, image 1"
+        },
+        {
+          "file": "images/tall-sprayed-vase-and-handled-vase/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Tall Sprayed Vase and Handled Vase, image 2"
+        },
+        {
+          "file": "images/tall-sprayed-vase-and-handled-vase/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Tall Sprayed Vase and Handled Vase, image 3"
+        },
+        {
+          "file": "images/tall-sprayed-vase-and-handled-vase/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Tall Sprayed Vase and Handled Vase, image 4"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "turned-vase-and-blue-globe-bowl",
+      "title": "Turned Vase and Blue Globe Bowl",
+      "section": "archives",
+      "date": "2017",
+      "cover": {
+        "file": "images/turned-vase-and-blue-globe-bowl/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/turned-vase-and-blue-globe-bowl/01.jpg",
+          "w": 639,
+          "h": 959,
+          "alt": "Turned Vase and Blue Globe Bowl, image 1"
+        },
+        {
+          "file": "images/turned-vase-and-blue-globe-bowl/02.jpg",
+          "w": 1086,
+          "h": 724,
+          "alt": "Turned Vase and Blue Globe Bowl, image 2"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "teabowls",
+      "title": "Teabowls",
+      "section": "archives",
+      "date": "June 2016",
+      "cover": {
+        "file": "images/teabowls/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/teabowls/01.jpg",
+          "w": 1250,
+          "h": 833,
+          "alt": "Teabowls, image 1"
+        },
+        {
+          "file": "images/teabowls/02.jpg",
+          "w": 1800,
+          "h": 1200,
+          "alt": "Teabowls, image 2"
+        },
+        {
+          "file": "images/teabowls/03.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Teabowls, image 3"
+        },
+        {
+          "file": "images/teabowls/04.jpg",
+          "w": 1500,
+          "h": 1000,
+          "alt": "Teabowls, image 4"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "burned-mountain-vase",
+      "title": "Burned Mountain Vase",
+      "section": "archives",
+      "date": "",
+      "cover": {
+        "file": "images/burned-mountain-vase/cover.jpg",
+        "w": 600,
+        "h": 540
+      },
+      "images": [
+        {
+          "file": "images/burned-mountain-vase/01.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Burned Mountain Vase, image 1"
+        },
+        {
+          "file": "images/burned-mountain-vase/02.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Burned Mountain Vase, image 2"
+        },
+        {
+          "file": "images/burned-mountain-vase/03.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Burned Mountain Vase, image 3"
+        },
+        {
+          "file": "images/burned-mountain-vase/04.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Burned Mountain Vase, image 4"
+        }
+      ],
+      "description": "",
+      "details": {
+        "title": "picasso vase",
+        "materials": "terra cotta, terra sigilata",
+        "dimensions": "24 x 18 x 16"
+      }
+    }
+  ],
+  "pages": {
+    "about": {
+      "title": "About",
+      "body": "I’m Charles Talbot, a visual artist and ceramicist based in New England. My practice moves between functional pottery, sculptural clay work, and painting. I am grounded in a long engagement with material, form, and the histories that shape both. I’ve always been drawn to the way clay holds memory—of the hand, of process, of tradition—and much of my work explores how objects can carry personal and cultural lineage in quiet, tactile ways.\n\nMy background spans both studio art and craft education. I received my MFA in Ceramics from the Cranbrook Academy of Art, where I also worked closely with artist-in-residence Anders Ruhwald as a studio and curatorial assistant. Before that, I held a formative apprenticeship with the studio artist <a href=\"https://www.toshikotakaezufoundation.org/\" target=\"_blank\">Toshiko Takaezu</a>. Working alongside Takaezu from 2008 to 2011 shaped my understanding of the studio as a place of rigor, generosity, and deep attention—values that remain central to my work today.\n\nI’ve taught and supported ceramic programs at Harvard University, serving as both an instructor and studio help, mentored students, and helped assist a community of makers. My exhibition history includes shows at venues such as the Kathryn Schultz Gallery in Cambridge, Haw Contemporary during NCECA in Kansas City, Brittany Gallery in Vallejo, CA, and Gallery 224 at Harvard University, among others. These experiences, along with years of studio practice, have guided the evolution of my work toward a balance of utility and narrative, precision and improvisation.\n\nIn my ceramics studio, I create functional ware in small batches—pots meant to be handled, lived with, and absorbed into daily rituals—as well as one-of-a-kind sculptural pieces that explore abstraction, origin stories, and the weight of inherited histories. I’m committed to making objects that feel grounded and intentional, built slowly and with attention to material presence.\n\nI’m always open to conversations, collaborations, and connections. If you have thoughts about the work or just want to reach out, I’d genuinely love to <a href=\"mailto:charlietalbot@gmail.com\">hear from you</a>.\n\n—Charles"
+    },
+    "artist-statement": {
+      "title": "Artist Statement",
+      "body": "Statement\n\nBy conflicting real or mythic points of origin, traditions of American identity and personal lineage, my work gathers narrative into an increasingly singular entropic condition. To be swept up in making is to escape the present. I work with histories I cannot grasp, but of which I can feel the weight. Through abstraction I examine my place in these histories. I take the parts that are essential, and distill them into sensations about history."
+    }
+  }
+}

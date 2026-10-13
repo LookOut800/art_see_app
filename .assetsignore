@@ -1,0 +1,9 @@
+# Files in the repo that should not be published on the website
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+build.py
+content
+README.md
+LICENSE
