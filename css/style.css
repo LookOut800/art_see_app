@@ -87,6 +87,13 @@ main { margin-left: var(--sidebar); padding: 24px 28px 80px 12px; }
 .gallery figure { margin: 0 0 22px; }
 .gallery img { width: auto; max-height: 92vh; background: #f3f3f3; }
 .zoom { display: inline-block; cursor: zoom-in; }
+
+/* Big galleries: thumbnail grid that opens the lightbox */
+.gallery-grid { column-width: 220px; column-gap: 14px; max-width: none; }
+.gallery-grid figure { break-inside: avoid; margin: 0 0 14px; }
+.gallery-grid .zoom { display: block; }
+.gallery-grid img { width: 100%; max-height: none; transition: opacity .2s; }
+.gallery-grid .zoom:hover img, .gallery-grid .zoom:focus-visible img { opacity: .82; }
 .pager {
   display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   max-width: 1100px; margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
@@ -141,6 +148,8 @@ body.lb-open { overflow: hidden; }
   .tile-title { display: none; }
   .gallery img { width: 100%; max-height: none; }
   .zoom { display: block; }
+  .gallery-grid { column-width: 140px; column-gap: 8px; }
+  .gallery-grid figure { margin-bottom: 8px; }
 }
 
 @media (prefers-color-scheme: dark) {

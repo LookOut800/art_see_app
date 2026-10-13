@@ -45,6 +45,10 @@ OLD_PROJECTS = {
 
 e = html.escape
 
+# Projects with more photos than this show a thumbnail grid instead of one long scroll.
+# Each image then needs a "thumb" (and "tw"/"th") entry in site.json.
+GRID_GALLERY_MIN = 12
+
 
 def paragraphs(text, raw=False):
     out = []
@@ -140,9 +144,12 @@ def main():
         write(href + "index.html", layout(1, label, body, active=href))
 
     for i, p in enumerate(PROJECTS):
+        big = len(p["images"]) > GRID_GALLERY_MIN
         figs = "\n".join(
             f'<figure><a class="zoom" href="../{im["file"]}">'
-            f'<img src="../{im["file"]}" width="{im["w"]}" height="{im["h"]}" alt="{e(im["alt"])}" '
+            f'<img src="../{im.get("thumb", im["file"]) if big else im["file"]}" '
+            f'width="{im.get("tw", im["w"]) if big else im["w"]}" '
+            f'height="{im.get("th", im["h"]) if big else im["h"]}" alt="{e(im["alt"])}" '
             f'loading="{"eager" if n == 0 else "lazy"}" decoding="async"></a></figure>'
             for n, im in enumerate(p["images"]))
         meta = []
@@ -163,7 +170,7 @@ def main():
                  f'<a href="../">All work</a>'
                  f'<a href="../{next_p["slug"]}/" rel="next">{e(next_p["title"])} →</a></nav>')
         body = (f'<article class="project"><h1 class="page-title">{e(p["title"])}</h1>{meta_html}{desc}'
-                f'<div class="gallery">{figs}</div></article>{pager}')
+                f'<div class="gallery{" gallery-grid" if big else ""}">{figs}</div></article>{pager}')
         write(p["slug"] + "/index.html",
               layout(1, p["title"], body, description=f'{p["title"]} — work by Charles Talbot.',
                      og_image=p["cover"]["file"]))
