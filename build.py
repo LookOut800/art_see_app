@@ -35,12 +35,19 @@ OLD_PAGES = {"Recent-Work": "recent-work", "Archives": "archives", "About": "abo
              "Artist-Statement": "artist-statement"}
 OLD_PROJECTS = {
     "Two-pots": "two-pots", "Brittany": "brittany", "Pots-2024": "pots-2024",
-    "Cut-Bonnet-Vase": "cut-bonnet-vase", "Tea-pottery-1": "tea-pottery-1",
-    "Painted-Lyric-Bowls-S-S": "painted-lyric-bowls-s-s", "Tea-pottery": "tea-pottery",
+    "Cut-Bonnet-Vase": "cut-bonnet-vase", "Tea-pottery-1": "tea-bowls-blue-brushwork-2018",
+    "Painted-Lyric-Bowls-S-S": "painted-lyric-bowls-s-s", "Tea-pottery": "tea-bowls-spattered-glazes-2018",
     "Small-Color-Paintings": "small-color-paintings",
     "Tall-Sprayed-Vase-and-Handled-Vase": "tall-sprayed-vase-and-handled-vase",
     "Turned-Vase-and-Blue-Globe-Bowl": "turned-vase-and-blue-globe-bowl",
-    "Teabowls": "teabowls", "Burned-Mountain-Vase": "burned-mountain-vase",
+    "Teabowls": "teabowls-2016", "Burned-Mountain-Vase": "burned-mountain-vase",
+}
+
+# Projects whose URL changed after launch: old slug -> new slug
+RENAMED_PROJECTS = {
+    "teabowls": "teabowls-2016",
+    "tea-pottery": "tea-bowls-spattered-glazes-2018",
+    "tea-pottery-1": "tea-bowls-blue-brushwork-2018",
 }
 
 e = html.escape
@@ -176,6 +183,8 @@ def main():
                      og_image=p["cover"]["file"]))
 
     redirects = [f"/{old} /{new}/ 301" for old, new in {**OLD_PAGES, **OLD_PROJECTS}.items()]
+    for old, new in RENAMED_PROJECTS.items():  # earlier URLs of this site, with and without trailing slash
+        redirects += [f"/{old} /{new}/ 301", f"/{old}/ /{new}/ 301"]
     write("_redirects", "\n".join(redirects) + "\n")
     print(f"Built {len(PROJECTS)} project pages + {len(NAV) + len(NAV2) + 1} others")
 
