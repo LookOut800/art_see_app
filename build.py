@@ -87,6 +87,9 @@ def layout(depth, title, body, active="", description=DESCRIPTION, og_image=None
 <meta property="og:description" content="{e(description)}">
 <meta property="og:type" content="website">
 {og}
+<link rel="icon" href="{root}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{root}favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="{root}apple-touch-icon.png">
 <link rel="stylesheet" href="{root}css/style.css">
 </head>
 <body class="{body_class}">
