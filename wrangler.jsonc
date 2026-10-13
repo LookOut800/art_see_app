@@ -1,0 +1,9 @@
+{
+  // Publishes the repo root as a static site (no build step needed).
+  // The name must match the project name in the Cloudflare dashboard.
+  "name": "art-see-app",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  }
+}
