@@ -32,10 +32,9 @@ Each piece is one of a kind and has its own SKU in the same three-part shape, `C
 
 A SKU is never renamed after it is on a piece. If you later learn the year of a `CMT-ND-015`, set `made` on its listing.
 
-Labels: print a batch where you name each piece's year in order, a blank meaning unknown:
-`python3 tools/make_labels.py --start 14 --years 2018,2018,,2021 --out tools/labels/batch.pdf`
-(that makes CMT-2018-014, CMT-2018-015, CMT-ND-016, CMT-2021-017), or print no-date labels in bulk with
-`python3 tools/make_labels.py --start 1 --count 30 --out tools/labels/CMT-ND-001-to-030.pdf` (they never go stale). Each label has the SKU and a QR code to the piece's page. For a sheet you have partly used, add `--skip 5` to leave the first 5 positions empty. Write the SKU on the piece's foot or back too, so photos, listing and order all match.
+Labels: say how many of each year you want, with `ND` for no date and `x9` to repeat:
+`python3 tools/make_labels.py --start 1 --years 2026x9,2027x12,NDx9 --out tools/labels/CMT-001-to-030.pdf`
+(CMT-2026-001 to 009, CMT-2027-010 to 021, CMT-ND-022 to 030). Or list years one by one: `--years 2018,2018,ND,2021`. Note each printed batch in `tools/labels/LOG.md`, so you know the next free number. No-date labels never go stale, so print those in bulk. Each label has the SKU and a QR code to the piece's page. For a sheet you have partly used, add `--skip 5` to leave the first 5 positions empty. Write the SKU on the piece's foot or back too, so photos, listing and order all match.
 
 Add a piece from 3 or 4 photos:
 

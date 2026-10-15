@@ -6,14 +6,17 @@ One running number covers every piece. The year is added only when you know when
     CMT-2018-014   made in 2018
     CMT-ND-015     no date known (ND = no date)
 
-Print a batch where you say each piece's year, in order (a blank means unknown):
+Print a batch by saying how many labels of each year you want. "ND" (or a blank) means no date,
+and "x9" repeats a label type nine times:
 
-    python3 tools/make_labels.py --start 14 --years 2018,2018,,2021,, --out tools/labels/batch.pdf
+    python3 tools/make_labels.py --start 1 --years 2026x9,2027x12,NDx9 --out tools/labels/CMT-001-to-030.pdf
 
-That prints CMT-2018-014, CMT-2018-015, CMT-ND-016, CMT-2021-017, CMT-ND-018, CMT-ND-019. Or print undated
-labels in bulk (they never go stale):
+That prints CMT-2026-001 to 009, CMT-2027-010 to 021 and CMT-ND-022 to 030. You can also list years
+one by one (--years 2018,2018,ND,2021). No-date labels never go stale, so print those in bulk:
 
-    python3 tools/make_labels.py --start 1 --count 30 --out tools/labels/CMT-ND-001-to-030.pdf
+    python3 tools/make_labels.py --start 31 --count 30 --out tools/labels/CMT-ND-031-to-060.pdf
+
+After each print, note the batch in tools/labels/LOG.md so you know the next free number.
 
 Or list exact SKUs: --skus CMT-2018-014,CMT-ND-015
 
@@ -79,9 +82,13 @@ def build_skus(args):
         skus = [t.strip().upper() for t in args.skus.split(",") if t.strip()]
     elif args.years is not None:
         skus = []
-        for i, yr in enumerate(args.years.split(",")):
-            yr = yr.strip()
-            skus.append(f"CMT-{yr or 'ND'}-{args.start + i:03d}")
+        for token in args.years.split(","):
+            t = re.match(r"^(\d{4}|ND|)(?:x(\d+))?$", token.strip(), re.IGNORECASE)
+            if not t:
+                sys.exit(f"{token!r} is not understood in --years (use 2026, ND, 2026x9 or NDx9)")
+            yr = (t.group(1) or "ND").upper()
+            for _ in range(int(t.group(2) or 1)):
+                skus.append(f"CMT-{yr}-{args.start + len(skus):03d}")
     else:
         skus = [f"CMT-ND-{args.start + n:03d}" for n in range(args.count)]
     for sku in skus:
@@ -94,7 +101,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--start", type=int, default=1, help="first running number")
     ap.add_argument("--count", type=int, default=30, help="how many undated labels (ignored with --years or --skus)")
-    ap.add_argument("--years", help='comma-separated year made for each piece in order, blank if unknown, e.g. "2018,2018,,2021"')
+    ap.add_argument("--years", help='how many labels of each year, e.g. "2026x9,2027x12,NDx9" or "2018,2018,ND,2021"')
     ap.add_argument("--skus", help="exact comma-separated SKUs, e.g. CMT-2018-014,CMT-015")
     ap.add_argument("--skip", type=int, default=0, help="label positions already used on the first sheet")
     ap.add_argument("--out", required=True)
@@ -117,8 +124,10 @@ def main():
         y = page_h - TOP - (row + 1) * LABEL_H
         draw_label(c, x, y, sku, args.outline)
     c.save()
-    print(f"Wrote {args.out}: {', '.join(skus[:6])}" + (" ..." if len(skus) > 6 else "")
-          + (f" (first {args.skip} positions left empty)" if args.skip else ""))
+    nums = [int(s.rsplit("-", 1)[1]) for s in skus]
+    print(f"Wrote {args.out}: {skus[0]} ... {skus[-1]} ({len(skus)} labels). Next free number: {max(nums) + 1}"
+          + (f" (first {args.skip} positions left empty)" if args.skip else "")
+          + (" (explicit SKUs: check the running number yourself)" if args.skus else ""))
 
 
 if __name__ == "__main__":
