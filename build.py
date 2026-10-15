@@ -65,7 +65,7 @@ SHOP = json.load(open(SHOP_PATH, encoding="utf8")) if os.path.exists(SHOP_PATH) 
 SHOP_PREVIEW = bool(os.environ.get("SHOP_PREVIEW"))
 SHOP_ON = bool(SHOP.get("enabled")) or SHOP_PREVIEW
 SHOP_NAV = [("Shop", "shop/")] if SHOP_ON else []
-SKU_RE = r"^CMT-\d{4}-\d{3}$"
+SKU_RE = r"^CMT-\d{3,5}$"
 STATUSES = ("available", "reserved", "sold")
 
 
@@ -146,7 +146,7 @@ def shop_check():
     seen, problems = set(), []
     for it in SHOP["items"]:
         if not re.match(SKU_RE, it["sku"]):
-            problems.append(f'{it["sku"]}: SKU must look like CMT-2026-014')
+            problems.append(f'{it["sku"]}: SKU must look like CMT-014')
         if it["sku"] in seen:
             problems.append(f'{it["sku"]}: duplicate SKU')
         seen.add(it["sku"])

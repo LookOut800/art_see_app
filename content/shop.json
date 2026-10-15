@@ -51,7 +51,7 @@
   ],
   "items": [
     {
-      "sku": "CMT-2026-901",
+      "sku": "CMT-901",
       "title": "Blue Brushwork Tea Bowl No. 1",
       "price": 85,
       "status": "available",
@@ -92,7 +92,7 @@
       "made": "2018"
     },
     {
-      "sku": "CMT-2026-902",
+      "sku": "CMT-902",
       "title": "Spattered Tea Bowl No. 2",
       "price": 70,
       "status": "available",
@@ -139,7 +139,7 @@
       "made": "2018"
     },
     {
-      "sku": "CMT-2026-903",
+      "sku": "CMT-903",
       "title": "Black Rimmed Teabowl",
       "price": 95,
       "status": "sold",
@@ -174,5 +174,5 @@
       "made": "2016"
     }
   ],
-  "_made_note": "made is optional free text shown as 'Made' on the piece page: a year (2021), a guess (c. 2021) or a range (2019 to 2021). Leave it empty to hide the line. The year inside the SKU is only the year the piece was catalogued."
+  "_made_note": "made is optional free text shown as 'Made' on the piece page: a year (2021), a guess (c. 2021) or a range (2019 to 2021). Leave it empty to hide the line. SKUs are just numbers (CMT-014) and carry no date."
 }
