@@ -4,7 +4,7 @@
 One running number covers every piece. The year is added only when you know when it was made:
 
     CMT-2018-014   made in 2018
-    CMT-ND-015     no date known (ND = no date; the label has a blank "made ____" line to fill in later)
+    CMT-ND-015     no date known (ND = no date)
 
 Print a batch where you say each piece's year, in order (a blank means unknown):
 
@@ -71,15 +71,7 @@ def draw_label(c, x, y, sku, outline):
     size = min(19, room / stringWidth(sku, "Helvetica-Bold", 1))
     c.setFillGray(0)
     c.setFont("Helvetica-Bold", size)
-    c.drawString(x + pad, y + LABEL_H / 2 - 0.07 * inch, sku)
-    if not re.match(r"^CMT-\d{4}-", sku):
-        # no year in the SKU (ND): a blank line to write it in by hand (or "c. 2018")
-        c.setFillGray(0.35)
-        c.setFont("Helvetica", 7)
-        c.drawString(x + pad, y + 0.15 * inch, "made")
-        c.setLineWidth(0.5)
-        c.setStrokeGray(0.45)
-        c.line(x + pad + 0.3 * inch, y + 0.14 * inch, x + pad + 1.3 * inch, y + 0.14 * inch)
+    c.drawString(x + pad, y + LABEL_H / 2 - 0.1 * inch, sku)
 
 
 def build_skus(args):

@@ -28,7 +28,7 @@ The shop is built but hidden. Nothing shows on the website until `"enabled": tru
 Each piece is one of a kind and has its own SKU in the same three-part shape, `CMT-<year>-<number>`. One running number covers every piece, and the middle part is the year it was made, or `ND` ("no date", as in n.d.) when you do not know:
 
 - `CMT-2018-014` means made in 2018.
-- `CMT-ND-015` means no date is known. The label has a blank "made ____" line to fill in later, and the website shows no date unless you set the optional `made` field (`c. 2021`, `2019 to 2021`).
+- `CMT-ND-015` means no date is known, and the website shows no date unless you set the optional `made` field in `content/shop.json` (`c. 2021`, `2019 to 2021`).
 
 A SKU is never renamed after it is on a piece. If you later learn the year of a `CMT-ND-015`, set `made` on its listing.
 
