@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Add a piece to the shop from a handful of photos.
 
-    python3 tools/add_piece.py CMT-014 "Blue Brushwork Tea Bowl No. 14" 85 small photos/*.jpg --made "c. 2021"
+    python3 tools/add_piece.py CMT-ND-014 "Blue Brushwork Tea Bowl No. 14" 85 small photos/*.jpg --made "c. 2021"
 
 Arguments: SKU, title, price in dollars, shipping size (small, medium or large), then 1 to 6 photos.
 --made is optional and free text ("2021", "c. 2021", "2019 to 2021"); leave it out if you do not know,
-and no date is shown. SKUs are just numbers and carry no date.
+and no date is shown. A SKU like CMT-2018-014 says the piece was made in 2018; CMT-ND-014 means no date is known (ND, as in "n.d.").
 The photos are resized (at most 1800px on the long edge, location data removed), a grid
 thumbnail is made from the first one, and a new entry is added to content/shop.json. Open
 that file to fill in dimensions, materials and a short description, then run `python3 build.py`.
@@ -41,8 +41,8 @@ def main():
     ap.add_argument("--made", default="", help='when it was made, e.g. "c. 2021" (optional)')
     args = ap.parse_args()
 
-    if not re.match(r"^CMT-\d{3,5}$", args.sku):
-        sys.exit("SKU must look like CMT-014 (3 to 5 digits)")
+    if not re.match(r"^CMT-(\d{4}|ND)-\d{3,5}$", args.sku):
+        sys.exit("SKU must look like CMT-2018-014 (year made) or CMT-ND-014 (no date known)")
     shop = json.load(open(SHOP_PATH, encoding="utf8"))
     if args.size not in shop["shipping"]:
         sys.exit("size must be one of: " + ", ".join(shop["shipping"]))

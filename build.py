@@ -65,7 +65,7 @@ SHOP = json.load(open(SHOP_PATH, encoding="utf8")) if os.path.exists(SHOP_PATH) 
 SHOP_PREVIEW = bool(os.environ.get("SHOP_PREVIEW"))
 SHOP_ON = bool(SHOP.get("enabled")) or SHOP_PREVIEW
 SHOP_NAV = [("Shop", "shop/")] if SHOP_ON else []
-SKU_RE = r"^CMT-\d{3,5}$"
+SKU_RE = r"^CMT-(\d{4}|ND)-\d{3,5}$"  # CMT-2018-014 (year made) or CMT-ND-014 (no date known)
 STATUSES = ("available", "reserved", "sold")
 
 
@@ -140,13 +140,23 @@ def money(v):
     return f"${v:,.0f}" if float(v).is_integer() else f"${v:,.2f}"
 
 
+def sku_year(sku):
+    """The year inside a SKU like CMT-2018-014 (the year the piece was made), or "" for CMT-ND-014."""
+    import re
+    m = re.match(r"^CMT-(\d{4})-\d+$", sku)
+    return m.group(1) if m else ""
+
+
 def shop_check():
     """Stop a half-finished shop from being published. Always validates the data shape."""
     import re
     seen, problems = set(), []
     for it in SHOP["items"]:
         if not re.match(SKU_RE, it["sku"]):
-            problems.append(f'{it["sku"]}: SKU must look like CMT-014')
+            problems.append(f'{it["sku"]}: SKU must look like CMT-2018-014 or CMT-ND-014')
+        yr = sku_year(it["sku"])
+        if yr and it.get("made") and re.search(r"\b(19|20)\d{2}\b", it["made"]) and yr not in it["made"]:
+            problems.append(f'{it["sku"]}: the year in the SKU ({yr}) does not match made ("{it["made"]}")')
         if it["sku"] in seen:
             problems.append(f'{it["sku"]}: duplicate SKU')
         seen.add(it["sku"])
@@ -201,8 +211,9 @@ def shop_item_page(it):
         for n, p in enumerate(it["photos"]))
     specs = []
     for label, key in (("Dimensions", "dimensions"), ("Materials", "materials"), ("Made", "made")):
-        if it.get(key):
-            specs.append(f"<dt>{label}</dt><dd>{e(str(it[key]))}</dd>")
+        value = it.get(key) or (sku_year(it["sku"]) if key == "made" else "")
+        if value:
+            specs.append(f"<dt>{label}</dt><dd>{e(str(value))}</dd>")
     specs_html = f'<dl class="specs">{"".join(specs)}</dl>' if specs else ""
 
     if it["status"] == "available":
