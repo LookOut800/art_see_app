@@ -25,11 +25,11 @@ Photos should be JPEGs around 1800px on the long edge, with GPS/location metadat
 
 The shop is built but hidden. Nothing shows on the website until `"enabled": true` is set in `content/shop.json`, and `build.py` refuses to publish it while sample pieces or draft policies remain.
 
-Each piece is one of a kind and has its own SKU in the form `CMT-2026-014` (your signature initials, the year, a running number). Write the SKU on the foot of the piece or on a tag before it is photographed, so the photos, the listing and the order all match.
+Each piece is one of a kind and has its own SKU in the form `CMT-2026-014`: your signature initials, the year it was catalogued, and a running number, like a museum accession number. The year in the SKU says nothing about when the piece was made. Put that in the optional `made` field (`2021`, `c. 2021`, `2019 to 2021`) or leave it empty to show no date. Write the SKU on the foot of the piece or on a tag before it is photographed, so the photos, the listing and the order all match.
 
 Add a piece from 3 or 4 photos:
 
-1. `python3 tools/add_piece.py CMT-2026-014 "Title" 85 small photos/*.jpg`
+1. `python3 tools/add_piece.py CMT-2026-014 "Title" 85 small photos/*.jpg --made "c. 2021"`
 2. Open `content/shop.json` and fill in dimensions, materials and a short description.
 3. Create the Stripe payment link for it and paste the link into `buy_url`.
 4. `python3 build.py`, check it, then publish as usual.

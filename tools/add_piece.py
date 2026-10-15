@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Add a piece to the shop from a handful of photos.
 
-    python3 tools/add_piece.py CMT-2026-014 "Blue Brushwork Tea Bowl No. 14" 85 small photos/*.jpg
+    python3 tools/add_piece.py CMT-2026-014 "Blue Brushwork Tea Bowl No. 14" 85 small photos/*.jpg --made "c. 2021"
 
 Arguments: SKU, title, price in dollars, shipping size (small, medium or large), then 1 to 6 photos.
+--made is optional and free text ("2021", "c. 2021", "2019 to 2021"); leave it out if you do not know,
+and no date is shown. The year inside the SKU is only the year the piece was catalogued.
 The photos are resized (at most 1800px on the long edge, location data removed), a grid
 thumbnail is made from the first one, and a new entry is added to content/shop.json. Open
 that file to fill in dimensions, materials and a short description, then run `python3 build.py`.
@@ -36,6 +38,7 @@ def main():
     ap.add_argument("price", type=float)
     ap.add_argument("size")
     ap.add_argument("photos", nargs="+")
+    ap.add_argument("--made", default="", help='when it was made, e.g. "c. 2021" (optional)')
     args = ap.parse_args()
 
     if not re.match(r"^CMT-\d{4}-\d{3}$", args.sku):
@@ -58,7 +61,7 @@ def main():
     tw, th = save(args.photos[0], os.path.join(ROOT, thumb_rel), 640, 80)
 
     shop["items"].append({
-        "sku": args.sku, "title": args.title, "year": int(args.sku.split("-")[1]),
+        "sku": args.sku, "title": args.title, "made": args.made,
         "price": args.price, "status": "available", "size": args.size,
         "dimensions": "", "materials": "", "weight_oz": 0, "pickup": True, "series": "",
         "description": "", "buy_url": "",

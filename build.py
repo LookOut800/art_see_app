@@ -200,7 +200,7 @@ def shop_item_page(it):
         f'loading="{"eager" if n == 0 else "lazy"}" decoding="async"></a></figure>'
         for n, p in enumerate(it["photos"]))
     specs = []
-    for label, key in (("Dimensions", "dimensions"), ("Materials", "materials"), ("Year", "year")):
+    for label, key in (("Dimensions", "dimensions"), ("Materials", "materials"), ("Made", "made")):
         if it.get(key):
             specs.append(f"<dt>{label}</dt><dd>{e(str(it[key]))}</dd>")
     specs_html = f'<dl class="specs">{"".join(specs)}</dl>' if specs else ""
