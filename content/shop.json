@@ -1,0 +1,177 @@
+{
+  "_notes": "Set enabled to true only when real pieces are listed, policies are final and every available piece has a buy_url. build.py refuses to publish the shop while samples or draft policies remain.",
+  "enabled": false,
+  "currency": "USD",
+  "contact_email": "charlietalbot@gmail.com",
+  "intro": "Each piece is made by hand and is one of a kind. You receive the exact piece pictured.",
+  "ships_within": "5 business days",
+  "pickup": {
+    "offered": true,
+    "area": ""
+  },
+  "shipping": {
+    "small": {
+      "label": "Small",
+      "hint": "bowls, cups, small vases",
+      "price": 12
+    },
+    "medium": {
+      "label": "Medium",
+      "hint": "larger bowls, vases, small paintings",
+      "price": 18
+    },
+    "large": {
+      "label": "Large",
+      "hint": "sculpture, large vases, framed paintings",
+      "price": 30
+    }
+  },
+  "policies_draft": true,
+  "policies": [
+    {
+      "heading": "Shipping",
+      "body": "Pieces ship within [5 business days] of payment, packed carefully in double-walled boxes and insured. Shipping is currently within the United States only. Rates are flat by size and shown on each piece. A tracking number is emailed when your order ships."
+    },
+    {
+      "heading": "Local pickup",
+      "body": "Pickup is free. After you order, you will get an email with the pickup address and times that work. Please bring the order confirmation."
+    },
+    {
+      "heading": "One of a kind",
+      "body": "Every piece is handmade and unique. The photos show the exact piece you will receive, and small variations in glaze, color and shape are part of the work. Pieces that look alike are still different, so check the SKU on the order against the one on the piece's page."
+    },
+    {
+      "heading": "Damage and returns",
+      "body": "If a piece arrives damaged, email within [7 days] with photos of the piece and the packaging and a refund will be arranged. [Decide: whether undamaged pieces can be returned within 14 days for a refund minus shipping.] Because each piece is one of a kind, a replacement is not always possible."
+    },
+    {
+      "heading": "Care",
+      "body": "[Confirm food safe, dishwasher safe and microwave safe for each type of piece.] Hand wash sculptural and painted work gently, and keep paintings out of direct sun."
+    }
+  ],
+  "items": [
+    {
+      "sku": "CMT-2026-901",
+      "title": "Blue Brushwork Tea Bowl No. 1",
+      "year": 2026,
+      "price": 85,
+      "status": "available",
+      "size": "small",
+      "dimensions": "W x D x H in. (placeholder)",
+      "materials": "Materials (placeholder)",
+      "weight_oz": 14,
+      "pickup": true,
+      "series": "",
+      "buy_url": "",
+      "sample": true,
+      "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
+      "thumb": {
+        "file": "images/tea-bowls-blue-brushwork-2018/thumbs/01.jpg",
+        "w": 640,
+        "h": 427
+      },
+      "photos": [
+        {
+          "file": "images/tea-bowls-blue-brushwork-2018/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue Brushwork Tea Bowl No. 1, photo 1"
+        },
+        {
+          "file": "images/tea-bowls-blue-brushwork-2018/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue Brushwork Tea Bowl No. 1, photo 2"
+        },
+        {
+          "file": "images/tea-bowls-blue-brushwork-2018/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue Brushwork Tea Bowl No. 1, photo 3"
+        }
+      ]
+    },
+    {
+      "sku": "CMT-2026-902",
+      "title": "Spattered Tea Bowl No. 2",
+      "year": 2026,
+      "price": 70,
+      "status": "available",
+      "size": "small",
+      "dimensions": "W x D x H in. (placeholder)",
+      "materials": "Materials (placeholder)",
+      "weight_oz": 14,
+      "pickup": true,
+      "series": "",
+      "buy_url": "",
+      "sample": true,
+      "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
+      "thumb": {
+        "file": "images/tea-bowls-spattered-glazes-2018/thumbs/01.jpg",
+        "w": 640,
+        "h": 427
+      },
+      "photos": [
+        {
+          "file": "images/tea-bowls-spattered-glazes-2018/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Spattered Tea Bowl No. 2, photo 1"
+        },
+        {
+          "file": "images/tea-bowls-spattered-glazes-2018/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Spattered Tea Bowl No. 2, photo 2"
+        },
+        {
+          "file": "images/tea-bowls-spattered-glazes-2018/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Spattered Tea Bowl No. 2, photo 3"
+        },
+        {
+          "file": "images/tea-bowls-spattered-glazes-2018/04.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Spattered Tea Bowl No. 2, photo 4"
+        }
+      ]
+    },
+    {
+      "sku": "CMT-2026-903",
+      "title": "Black Rimmed Teabowl",
+      "year": 2026,
+      "price": 95,
+      "status": "sold",
+      "size": "small",
+      "dimensions": "W x D x H in. (placeholder)",
+      "materials": "Materials (placeholder)",
+      "weight_oz": 14,
+      "pickup": true,
+      "series": "",
+      "buy_url": "",
+      "sample": true,
+      "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
+      "thumb": {
+        "file": "images/teabowls-2016/01.jpg",
+        "w": 1250,
+        "h": 833
+      },
+      "photos": [
+        {
+          "file": "images/teabowls-2016/01.jpg",
+          "w": 1250,
+          "h": 833,
+          "alt": "Black Rimmed Teabowl, photo 1"
+        },
+        {
+          "file": "images/teabowls-2016/02.jpg",
+          "w": 1800,
+          "h": 1200,
+          "alt": "Black Rimmed Teabowl, photo 2"
+        }
+      ]
+    }
+  ]
+}
