@@ -10,7 +10,7 @@ Static portfolio site for [charlestalbotart.com](https://www.charlestalbotart.co
 | `images/<project>/` | Web-sized photos (`01.jpg`, `02.jpg`, ... and `cover.jpg` for the grid) |
 | `build.py` | Generates the HTML pages from `site.json` |
 | `css/style.css`, `js/main.js` | Styling, mobile menu and image lightbox |
-| `_redirects` | Old Cargo URLs mapped to the new ones (Netlify / Cloudflare Pages) |
+| `_redirects` | Old Cargo URLs mapped to the new ones (read by Cloudflare's static assets) |
 | `index.html`, `<project>/index.html`, ... | Generated output; do not edit by hand |
 
 ## Editing the site
@@ -18,6 +18,12 @@ Static portfolio site for [charlestalbotart.com](https://www.charlestalbotart.co
 1. Change `content/site.json`, or drop new photos into `images/<project>/` and list them there.
 2. Run `python3 build.py`.
 3. Preview locally with `python3 -m http.server 8000` and open http://localhost:8000.
+
+## Hosting
+
+Cloudflare Workers static assets: `wrangler.jsonc` publishes the repo root as the `art-see-app` project
+(the name must match the Cloudflare dashboard), and `.assetsignore` keeps the source, content and tools off the
+site. To publish by hand: `npx wrangler deploy`. Domain: charlestalbotart.com.
 
 Photos should be JPEGs around 1800px on the long edge, with GPS/location metadata stripped.
 
