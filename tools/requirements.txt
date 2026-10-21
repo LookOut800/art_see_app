@@ -1,0 +1,4 @@
+pillow
+pillow-heif
+numpy
+opencv-python-headless

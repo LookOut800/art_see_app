@@ -31,3 +31,10 @@ bower_components
 
 # Cloudflare Wrangler local cache
 .wrangler
+
+# Python virtualenv for tools/ (see tools/requirements.txt)
+.venv
+
+# Full-size photo originals and review sheets; only web-sized images belong in the repo
+inbox
+__pycache__

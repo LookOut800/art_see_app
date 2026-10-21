@@ -21,6 +21,16 @@ Static portfolio site for [charlestalbotart.com](https://www.charlestalbotart.co
 
 Photos should be JPEGs around 1800px on the long edge, with GPS/location metadata stripped.
 
+### Cleaning up photos
+
+`tools/process_photos.py` does the routine edits so photos look consistent: white balance and exposure from the backdrop, crop to the piece with even margins (or square up and crop a painting), sRGB, 1800px, all metadata removed. It never retouches the work itself. Keep full-size originals in `inbox/`, which is not committed or published.
+
+1. One time: `uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r tools/requirements.txt` (`build.py` needs Python 3.12 too, so run everything with `.venv/bin/python`).
+2. `.venv/bin/python tools/process_photos.py --kind pot --out inbox/out inbox/new-bowl/*` (`--kind painting` for paintings, `--cover` for a 4:5 grid cover, `--gray l,t,r,b` to balance from a gray card).
+3. Check `inbox/out/sheet.jpg` (before and after, with what was done to each photo), then copy the ones you want into `images/<project>/`.
+
+`tools/add_piece.py` runs the same cleanup on shop photos and writes its sheet to `inbox/sheets/<SKU>.jpg`.
+
 ## The shop (not live yet)
 
 The shop is built but hidden. Nothing shows on the website until `"enabled": true` is set in `content/shop.json`, and `build.py` refuses to publish it while sample pieces or draft policies remain.

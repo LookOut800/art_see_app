@@ -6,10 +6,13 @@
 Arguments: SKU, title, price in dollars, shipping size (small, medium or large), then 1 to 6 photos.
 --made is optional and free text ("2021", "c. 2021", "2019 to 2021"); leave it out if you do not know,
 and no date is shown. A SKU like CMT-2018-014 says the piece was made in 2018; CMT-ND-014 means no date is known (ND, as in "n.d.").
-The photos are resized (at most 1800px on the long edge, location data removed), a grid
-thumbnail is made from the first one, and a new entry is added to content/shop.json. Open
-that file to fill in dimensions, materials and a short description, then run `python3 build.py`.
-Needs Pillow (pip install pillow).
+The photos are cleaned up by tools/process_photos.py (--kind pot, the default: white balance
+and exposure from the backdrop, cropped to the piece; --kind painting: canvas squared and
+cropped; --kind none: only resized), at most 1800px on the long edge with location data
+removed. A grid thumbnail is made from the first one, a before/after sheet is written to
+inbox/sheets/<SKU>.jpg, and a new entry is added to content/shop.json. Check the sheet, then
+fill in dimensions, materials and a short description and run `python3 build.py`.
+Needs the packages in tools/requirements.txt.
 """
 import argparse
 import json
@@ -17,18 +20,18 @@ import os
 import re
 import sys
 
-from PIL import Image, ImageOps
+from PIL import Image
+
+import process_photos
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SHOP_PATH = os.path.join(ROOT, "content", "shop.json")
 
 
-def save(src, dst, longest, quality):
-    im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")  # no EXIF is written back
+def thumbnail(im, dst, longest=640, quality=80):
+    im = im.copy()
     im.thumbnail((longest, longest), Image.LANCZOS)
-    os.makedirs(os.path.dirname(dst), exist_ok=True)
-    im.save(dst, "JPEG", quality=quality, optimize=True, progressive=True)
-    return im.size
+    return process_photos.save(im, dst, quality)
 
 
 def main():
@@ -39,6 +42,8 @@ def main():
     ap.add_argument("size")
     ap.add_argument("photos", nargs="+")
     ap.add_argument("--made", default="", help='when it was made, e.g. "c. 2021" (optional)')
+    ap.add_argument("--kind", choices=("pot", "painting", "none"), default="pot",
+                    help="how to clean up the photos (see tools/process_photos.py)")
     args = ap.parse_args()
 
     if not re.match(r"^CMT-(\d{4}|ND)-\d{3,5}$", args.sku):
@@ -52,13 +57,19 @@ def main():
         sys.exit("give 1 to 6 photos")
 
     folder = f"images/shop/{args.sku}"
-    photos = []
+    photos, rows = [], []
     for n, src in enumerate(args.photos, 1):
         rel = f"{folder}/{n:02d}.jpg"
-        w, h = save(src, os.path.join(ROOT, rel), 1800, 82)
+        im, before, notes = process_photos.process(src, args.kind)
+        w, h = process_photos.save(im, os.path.join(ROOT, rel))
         photos.append({"file": rel, "w": w, "h": h, "alt": f"{args.title}, photo {n}"})
-    thumb_rel = f"{folder}/thumb.jpg"
-    tw, th = save(args.photos[0], os.path.join(ROOT, thumb_rel), 640, 80)
+        rows.append((f"{os.path.basename(src)} -> {rel}", before, im, notes))
+        if n == 1:
+            thumb_rel = f"{folder}/thumb.jpg"
+            tw, th = thumbnail(im, os.path.join(ROOT, thumb_rel))
+    sheet = os.path.join(ROOT, "inbox", "sheets", f"{args.sku}.jpg")
+    os.makedirs(os.path.dirname(sheet), exist_ok=True)
+    process_photos.contact_sheet(rows, sheet)
 
     shop["items"].append({
         "sku": args.sku, "title": args.title, "made": args.made,
@@ -69,7 +80,7 @@ def main():
     })
     with open(SHOP_PATH, "w", encoding="utf8") as f:
         json.dump(shop, f, indent=2, ensure_ascii=False)
-    print(f"Added {args.sku} with {len(photos)} photos. Next: fill in dimensions, materials and description in "
+    print(f"Added {args.sku} with {len(photos)} photos. Check the before/after sheet {os.path.relpath(sheet, ROOT)}, then fill in dimensions, materials and description in "
           "content/shop.json, paste the Stripe link into buy_url, then run python3 build.py")
 
 

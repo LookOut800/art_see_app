@@ -8,3 +8,5 @@ content
 README.md
 LICENSE
 tools
+.venv
+inbox
