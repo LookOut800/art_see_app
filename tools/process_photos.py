@@ -9,9 +9,10 @@ not misrepresented: no generative "enhance", no retouching of the work itself.
 
   pot       white balance and exposure taken from the backdrop (the bright, nearly gray pixels
             around the edge of the frame), then cropped to the piece with even margins.
-            If no neutral backdrop is found (wood, colored paper) the color is left as shot.
-  painting  finds the canvas edge, corrects the perspective and crops to it. Color is left as
-            shot unless --gray marks a neutral patch (a gray card) to balance from.
+            On a gradient or colored backdrop the color is left as shot (only cropped).
+  painting  finds the edge of the canvas (or, for drawing, the sheet of paper), corrects the
+  drawing   perspective and crops to it, but only when the edge is clear; otherwise it is left
+            uncropped. Color is left as shot unless --gray marks a neutral patch (a gray card).
   none      only orientation, color profile, size and metadata.
 
 Every kind: EXIF rotation applied, colors converted to sRGB (iPhone photos are Display P3),
@@ -96,13 +97,17 @@ def backdrop_color(im):
     return np.median(px[ok], axis=0)
 
 
-def subject_box(im, bg):
-    """Bounding box of everything that differs clearly from the backdrop, in full-size pixels."""
+def subject_box(im):
+    """Bounding box of everything that differs clearly from the backdrop, in full-size pixels.
+
+    The backdrop is modelled row by row from the left and right edges of the frame, so a sweep
+    or a gradient that darkens toward the top still counts as backdrop."""
     scale = 600 / max(im.size)
     small = im.resize((max(1, round(im.width * scale)), max(1, round(im.height * scale))))
     a = np.asarray(small.filter(ImageFilter.GaussianBlur(2)), dtype=np.float32)
-    diff = np.abs(a - np.asarray(bg, dtype=np.float32)).max(2)
-    mask = diff > 28
+    edge = max(2, a.shape[1] // 25)
+    row_bg = np.median(np.concatenate([a[:, :edge], a[:, -edge:]], axis=1), axis=1)
+    mask = np.abs(a - row_bg[:, None, :]).max(2) > 28
     # drop rows/columns with only a few stray pixels (dust, sweep seams, vignetting)
     rows = np.where(mask.sum(1) > max(3, mask.shape[1] * 0.01))[0]
     cols = np.where(mask.sum(0) > max(3, mask.shape[0] * 0.01))[0]
@@ -132,26 +137,51 @@ def fit_box(box, size, aspect, margin=MARGIN):
 
 
 def find_canvas(im):
-    """Corners of the largest four-sided shape filling much of the frame (the painting), or None."""
+    """Corners (tl, tr, br, bl) of the canvas or sheet of paper, or None when unsure.
+
+    GrabCut separates the work (the middle of the frame) from what surrounds it, and the outline
+    of that region is reduced to four corners. It is only trusted when the result looks like a
+    flat rectangle shot head-on: corners within 5 degrees of square and not running along the
+    edge of the photo (a sheet that fills the frame, or a bent sketchbook page, is left alone)."""
     import cv2
     scale = 1000 / max(im.size)
     small = np.asarray(im.resize((round(im.width * scale), round(im.height * scale))))
-    gray = cv2.GaussianBlur(cv2.cvtColor(small, cv2.COLOR_RGB2GRAY), (5, 5), 0)
-    edges = cv2.dilate(cv2.Canny(gray, 30, 90), np.ones((3, 3), np.uint8))
-    contours, _ = cv2.findContours(edges, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-    area = small.shape[0] * small.shape[1]
-    best = None
-    for c in sorted(contours, key=cv2.contourArea, reverse=True)[:10]:
-        if cv2.contourArea(c) < 0.25 * area:
-            break
-        quad = cv2.approxPolyDP(c, 0.02 * cv2.arcLength(c, True), True)
-        if len(quad) == 4 and cv2.isContourConvex(quad):
-            best = quad.reshape(4, 2) / scale
-            break
-    if best is None:
+    h, w = small.shape[:2]
+    mask = np.full((h, w), cv2.GC_PR_FGD, np.uint8)
+    b = max(4, round(min(h, w) * 0.02))
+    mask[:b], mask[-b:], mask[:, :b], mask[:, -b:] = (cv2.GC_PR_BGD,) * 4
+    mask[h // 4:3 * h // 4, w // 4:3 * w // 4] = cv2.GC_FGD
+    bgd, fgd = np.zeros((1, 65)), np.zeros((1, 65))
+    cv2.grabCut(cv2.cvtColor(small, cv2.COLOR_RGB2BGR), mask, None, bgd, fgd, 5, cv2.GC_INIT_WITH_MASK)
+    fg = cv2.morphologyEx(np.isin(mask, (cv2.GC_FGD, cv2.GC_PR_FGD)).astype(np.uint8),
+                          cv2.MORPH_OPEN, np.ones((7, 7), np.uint8))
+    contours, _ = cv2.findContours(fg, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if not contours:
         return None
-    s, d = best.sum(1), np.diff(best, axis=1).ravel()
-    return np.array([best[s.argmin()], best[d.argmin()], best[s.argmax()], best[d.argmax()]], np.float32)
+    c = max(contours, key=cv2.contourArea)
+    if not 0.2 < cv2.contourArea(c) / (h * w) < 0.97:
+        return None
+    hull = cv2.convexHull(c)
+    for eps in (0.01, 0.02, 0.03, 0.05):
+        quad = cv2.approxPolyDP(hull, eps * cv2.arcLength(hull, True), True)
+        if len(quad) == 4:
+            break
+    else:
+        return None
+    if cv2.contourArea(c) / cv2.contourArea(quad) < 0.9:  # only roughly four-sided
+        return None
+    q = quad.reshape(4, 2).astype(np.float32)
+    s, d = q.sum(1), np.diff(q, axis=1).ravel()
+    q = np.array([q[s.argmin()], q[d.argmin()], q[s.argmax()], q[d.argmax()]], np.float32)
+    for i in range(4):
+        v1, v2 = q[i - 1] - q[i], q[(i + 1) % 4] - q[i]
+        angle = np.degrees(np.arccos(np.dot(v1, v2) / np.linalg.norm(v1) / np.linalg.norm(v2)))
+        if abs(angle - 90) > 5:
+            return None
+    near_edge = sum(min(x, w - x) < 0.01 * w for x in q[:, 0]) + sum(min(y, h - y) < 0.01 * h for y in q[:, 1])
+    if near_edge > 2:
+        return None
+    return q / scale
 
 
 def warp_canvas(im, corners):
@@ -188,30 +218,30 @@ def process(src, kind="pot", cover=False, gray=None, rotate=0.0, crop=True):
 
     if kind == "pot":
         bg = backdrop_color(im)
-        if bg is None:
-            notes.append("no neutral backdrop found: color left as shot, not cropped")
+        if gray:
+            pass
+        elif bg is None:
+            notes.append("backdrop not neutral (gradient, wood, color): color left as shot")
         else:
-            if not gray:
-                g = gains_for(bg)
-                im = apply_gains(im, g)
-                bg = backdrop_color(im)
-                notes.append("backdrop balanced " + gains_text(g))
-            box = subject_box(im, bg) if crop else None
-            if box:
-                aspect = 4 / 5 if cover else im.width / im.height
-                c = fit_box(box, im.size, aspect)
-                if c != (0, 0, im.width, im.height):
-                    im = im.crop(c)
-                    notes.append(f"cropped to piece, {c[2] - c[0]}x{c[3] - c[1]}")
-            elif crop:
-                notes.append("piece not found against backdrop: not cropped")
-    elif kind == "painting":
+            g = gains_for(bg)
+            im = apply_gains(im, g)
+            notes.append("backdrop balanced " + gains_text(g))
+        box = subject_box(im) if crop else None
+        if box:
+            aspect = 4 / 5 if cover else im.width / im.height
+            c = fit_box(box, im.size, aspect)
+            if c != (0, 0, im.width, im.height):
+                im = im.crop(c)
+                notes.append(f"cropped to piece, {c[2] - c[0]}x{c[3] - c[1]}")
+        elif crop:
+            notes.append("piece not found against backdrop: not cropped")
+    elif kind in ("painting", "drawing"):
         corners = find_canvas(im) if crop else None
         if corners is not None:
             im = warp_canvas(im, corners)
-            notes.append(f"canvas squared and cropped, {im.width}x{im.height}")
+            notes.append(f"squared up and cropped to the edge, {im.width}x{im.height}")
         elif crop:
-            notes.append("canvas edge not found: not cropped")
+            notes.append("edge of the work not found clearly: not cropped")
     if cover and abs(im.width / im.height - 4 / 5) > 0.005:
         w, h = min(im.width, round(im.height * 4 / 5)), min(im.height, round(im.width * 5 / 4))
         im = ImageOps.fit(im, (w, h), Image.LANCZOS)
@@ -265,7 +295,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("photos", nargs="+")
     ap.add_argument("--out", required=True, help="folder for the edited photos and sheet.jpg")
-    ap.add_argument("--kind", choices=("pot", "painting", "none"), default="pot")
+    ap.add_argument("--kind", choices=("pot", "painting", "drawing", "none"), default="pot")
     ap.add_argument("--cover", action="store_true", help="crop to 4:5 for a grid cover")
     ap.add_argument("--gray", help="neutral patch as fractions of the frame: left,top,right,bottom")
     ap.add_argument("--rotate", type=float, default=0.0, help="straighten by this many degrees (clockwise)")

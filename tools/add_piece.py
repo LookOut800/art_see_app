@@ -42,7 +42,7 @@ def main():
     ap.add_argument("size")
     ap.add_argument("photos", nargs="+")
     ap.add_argument("--made", default="", help='when it was made, e.g. "c. 2021" (optional)')
-    ap.add_argument("--kind", choices=("pot", "painting", "none"), default="pot",
+    ap.add_argument("--kind", choices=("pot", "painting", "drawing", "none"), default="pot",
                     help="how to clean up the photos (see tools/process_photos.py)")
     args = ap.parse_args()
 

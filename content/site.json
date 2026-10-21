@@ -23,6 +23,354 @@
       "details": {}
     },
     {
+      "slug": "drawings",
+      "title": "Drawings",
+      "section": "none",
+      "date": "2022–2026",
+      "cover": {
+        "file": "images/drawings/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/drawings/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Over Alaska, 2022",
+          "thumb": "images/drawings/thumbs/01.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/02.jpg",
+          "w": 1437,
+          "h": 1800,
+          "alt": "Untitled (brown lines), 2023",
+          "thumb": "images/drawings/thumbs/02.jpg",
+          "tw": 511,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/03.jpg",
+          "w": 1420,
+          "h": 1800,
+          "alt": "Untitled (brown spirals), 2023",
+          "thumb": "images/drawings/thumbs/03.jpg",
+          "tw": 505,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/04.jpg",
+          "w": 1438,
+          "h": 1800,
+          "alt": "Untitled (eyes), 2023",
+          "thumb": "images/drawings/thumbs/04.jpg",
+          "tw": 511,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (leaves), 2023",
+          "thumb": "images/drawings/thumbs/05.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (color bands), 2023",
+          "thumb": "images/drawings/thumbs/06.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (black hatching), 2023",
+          "thumb": "images/drawings/thumbs/07.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (black lines), 2023",
+          "thumb": "images/drawings/thumbs/08.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (black marks), 2023",
+          "thumb": "images/drawings/thumbs/09.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/10.jpg",
+          "w": 1089,
+          "h": 1800,
+          "alt": "Untitled (color and line I), 2023",
+          "thumb": "images/drawings/thumbs/10.jpg",
+          "tw": 387,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/11.jpg",
+          "w": 1062,
+          "h": 1800,
+          "alt": "Untitled (color and line II), 2023",
+          "thumb": "images/drawings/thumbs/11.jpg",
+          "tw": 378,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/12.jpg",
+          "w": 1052,
+          "h": 1800,
+          "alt": "Untitled (color and line III), 2023",
+          "thumb": "images/drawings/thumbs/12.jpg",
+          "tw": 374,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/13.jpg",
+          "w": 1073,
+          "h": 1800,
+          "alt": "Untitled (color and line IV), 2023",
+          "thumb": "images/drawings/thumbs/13.jpg",
+          "tw": 382,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/14.jpg",
+          "w": 1238,
+          "h": 1800,
+          "alt": "Bailey Island, Casco Bay, ME, 2023",
+          "thumb": "images/drawings/thumbs/14.jpg",
+          "tw": 440,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/15.jpg",
+          "w": 1207,
+          "h": 1800,
+          "alt": "Bailey Island, 2023",
+          "thumb": "images/drawings/thumbs/15.jpg",
+          "tw": 429,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/16.jpg",
+          "w": 1215,
+          "h": 1800,
+          "alt": "Bailey Island, Casco Bay, ME (II), 2023",
+          "thumb": "images/drawings/thumbs/16.jpg",
+          "tw": 432,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/17.jpg",
+          "w": 1319,
+          "h": 1800,
+          "alt": "Untitled (sketchbook I), 2024",
+          "thumb": "images/drawings/thumbs/17.jpg",
+          "tw": 469,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/18.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (sketchbook II), 2024",
+          "thumb": "images/drawings/thumbs/18.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/19.jpg",
+          "w": 1516,
+          "h": 1800,
+          "alt": "Untitled (sketchbook III), 2024",
+          "thumb": "images/drawings/thumbs/19.jpg",
+          "tw": 539,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/20.jpg",
+          "w": 1537,
+          "h": 1800,
+          "alt": "Untitled (sketchbook IV), 2024",
+          "thumb": "images/drawings/thumbs/20.jpg",
+          "tw": 546,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/21.jpg",
+          "w": 1511,
+          "h": 1800,
+          "alt": "Untitled (sunset), 2025",
+          "thumb": "images/drawings/thumbs/21.jpg",
+          "tw": 537,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/22.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (waves with words), 2025",
+          "thumb": "images/drawings/thumbs/22.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/23.jpg",
+          "w": 1377,
+          "h": 1800,
+          "alt": "Untitled (pink), 2025",
+          "thumb": "images/drawings/thumbs/23.jpg",
+          "tw": 490,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/24.jpg",
+          "w": 1224,
+          "h": 1800,
+          "alt": "Phish, Fenway Park, 2026",
+          "thumb": "images/drawings/thumbs/24.jpg",
+          "tw": 435,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/25.jpg",
+          "w": 1263,
+          "h": 1800,
+          "alt": "Untitled (8.1), 2026",
+          "thumb": "images/drawings/thumbs/25.jpg",
+          "tw": 449,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/26.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "July, 2026",
+          "thumb": "images/drawings/thumbs/26.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/27.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bailey Island, ME (I), 2026",
+          "thumb": "images/drawings/thumbs/27.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/28.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bailey Island, ME (II), 2026",
+          "thumb": "images/drawings/thumbs/28.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/29.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Alexander on Bailey, 2026",
+          "thumb": "images/drawings/thumbs/29.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/30.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bailey Island (water), 2026",
+          "thumb": "images/drawings/thumbs/30.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/31.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bailey Island (porch), 2026",
+          "thumb": "images/drawings/thumbs/31.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/32.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bailey Island, ME (III), 2026",
+          "thumb": "images/drawings/thumbs/32.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/33.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sea Star, Bailey Island, 2026",
+          "thumb": "images/drawings/thumbs/33.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/34.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "¡Rising sun!, 2026",
+          "thumb": "images/drawings/thumbs/34.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/35.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (spirals), 2026",
+          "thumb": "images/drawings/thumbs/35.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/36.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (green and orange), 2026",
+          "thumb": "images/drawings/thumbs/36.jpg",
+          "tw": 480,
+          "th": 640
+        },
+        {
+          "file": "images/drawings/37.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Untitled (frame), 2026",
+          "thumb": "images/drawings/thumbs/37.jpg",
+          "tw": 480,
+          "th": 640
+        }
+      ],
+      "description": "Drawings in ink, watercolor, colored pencil and marker, many made on Bailey Island in Casco Bay, Maine.",
+      "details": {}
+    },
+    {
       "slug": "brittany",
       "title": "Brittany",
       "section": "recent",
