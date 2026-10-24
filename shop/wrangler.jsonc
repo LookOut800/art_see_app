@@ -14,6 +14,8 @@
   "d1_databases": [
     { "binding": "DB", "database_name": "charlestalbot-shop", "database_id": "ef23a8d3-af13-4cff-8200-103695ea2362" }
   ],
+  // The shop's address; Cloudflare creates its DNS record and certificate
+  "routes": [{ "pattern": "shop.charlestalbotart.com", "custom_domain": true }],
   "vars": {
     // Checkout sends buyers back here. Locally, .dev.vars overrides it.
     "SITE_URL": "https://shop.charlestalbotart.com"
