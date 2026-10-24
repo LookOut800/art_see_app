@@ -77,7 +77,18 @@ main { margin-left: var(--sidebar); padding: 24px 28px 80px 12px; }
   background: linear-gradient(transparent, rgba(0,0,0,.55));
   opacity: 0; transition: opacity .2s;
 }
-.tile:hover .tile-title, .tile:focus-visible .tile-title { opacity: 1; }
+.tile:hover .tile-title, .tile:focus-visible .tile-title, .tile-labeled .tile-title { opacity: 1; }
+
+/* The wall: filter links, year links, one section per year */
+.filters, .years { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0 0 10px; font-size: 15px; }
+.filters a, .years a { color: var(--muted); text-decoration: none; }
+.filters a:hover, .years a:hover { color: var(--accent); }
+.filters a[aria-current="page"] { color: var(--fg); border-bottom: 1px solid var(--fg); }
+.years { margin-bottom: 28px; font-size: 13px; gap: 4px 12px; }
+.year { scroll-margin-top: 16px; }
+.year-h { font: italic 400 20px/1.2 var(--serif); margin: 8px 0 14px; color: var(--muted); }
+.year .grid, .project + .grid { column-width: 200px; column-gap: 18px; }
+.year .tile { margin-bottom: 18px; }
 
 /* Project page */
 .project { max-width: 1100px; }
