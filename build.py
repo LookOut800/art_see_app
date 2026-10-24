@@ -255,7 +255,7 @@ def gallery(images, root, alt):
     return f'<div class="gallery{" gallery-grid" if big else ""}">{figs}</div>'
 
 
-def piece_page(p, prev_p, next_p, shop_items):
+def piece_page(p, prev_p, next_p):
     root = "../../"
     name = piece_name(p)
     meta = [x for x in (p["year"] and p["title"] and p["year"], KIND_LABEL[p["kind"]] if p["title"] else "",
@@ -264,17 +264,13 @@ def piece_page(p, prev_p, next_p, shop_items):
     themes = [t for t in THEMES if t["slug"] in p["themes"]]
     theme_html = ('<p class="meta">Part of ' + ", ".join(
         f'<a href="{root}themes/{t["slug"]}/">{e(t["title"])}</a>' for t in themes) + "</p>") if themes else ""
-    it = shop_items.get(p["sku"])
-    shop_html = ""
-    if it and it["status"] == "available":
-        shop_html = f'<p class="meta"><a href="{root}shop/{it["sku"].lower()}/">Available in the shop: {money(it["price"])}</a></p>'
     notes = paragraphs(p["notes"]) if p["notes"] else ""
     images = [(f, *size_of(f)) for f in p["photos"]]
     pager = (f'<nav class="pager" aria-label="Pieces">'
              f'<a href="{root}work/{prev_p["id"]}/" rel="prev">← Previous</a>'
              f'<a href="{root}work/">All work</a>'
              f'<a href="{root}work/{next_p["id"]}/" rel="next">Next →</a></nav>')
-    body = (f'<article class="project"><h1 class="page-title">{e(name)}</h1>{meta_html}{theme_html}{shop_html}{notes}'
+    body = (f'<article class="project"><h1 class="page-title">{e(name)}</h1>{meta_html}{theme_html}{notes}'
             f'{slider(images, root, name)}</article>{pager}')
     write(f'work/{p["id"]}/index.html', layout(2, name, body, active="work/",
           description=f"{name} — work by Charles Talbot.", og_image=p["photos"][0]))
@@ -444,7 +440,6 @@ def main():
     pieces = load_pieces()
     for p in pieces:
         p["thumb"] = wall_thumb(p)
-    shop_items = {i["sku"]: i for i in SHOP["items"]} if SHOP_ON else {}
 
     # Clean previously generated folders
     for v in VIEWS:
@@ -463,7 +458,7 @@ def main():
     write("work/index.html", layout(1, label, f'<h1 class="page-title">{e(label)}</h1>' + filters("../", f"work/{default}/")
                                     + wall(subset, "../"), active="work/", og_image=og))
     for i, p in enumerate(pieces):
-        piece_page(p, pieces[i - 1], pieces[(i + 1) % len(pieces)], shop_items)
+        piece_page(p, pieces[i - 1], pieces[(i + 1) % len(pieces)])
 
     tiles = []
     for t in THEMES:
