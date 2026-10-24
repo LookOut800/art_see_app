@@ -61,7 +61,7 @@
       var s = state(b.getAttribute('data-opens'), b.getAttribute('data-closes'));
       var inBag = bag().indexOf(sku) !== -1;
       var st = stock[sku];
-      var card = b.closest('[data-sku]');
+      var card = b.closest('.card, .item');
       if (card) {
         card.classList.toggle('is-sold', st === 'sold');
         card.classList.toggle('is-held', st === 'held');
