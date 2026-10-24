@@ -3,7 +3,7 @@
 
     python3 build.py
 
-Writes index.html plus one folder per page (e.g. brittany/index.html) at the
+Writes index.html plus one folder per page (e.g. drawings/index.html) at the
 repo root. Edit content/site.json (titles, text, image order, which section a
 project lives in) and re-run; do not edit the generated HTML by hand.
 """
@@ -34,20 +34,32 @@ EXTERNAL = [
 OLD_PAGES = {"Recent-Work": "recent-work", "Archives": "archives", "About": "about",
              "Artist-Statement": "artist-statement"}
 OLD_PROJECTS = {
-    "Two-pots": "two-pots", "Brittany": "brittany", "Pots-2024": "pots-2024",
-    "Cut-Bonnet-Vase": "cut-bonnet-vase", "Tea-pottery-1": "tea-bowls-blue-brushwork-2018",
-    "Painted-Lyric-Bowls-S-S": "painted-lyric-bowls-s-s", "Tea-pottery": "tea-bowls-spattered-glazes-2018",
-    "Small-Color-Paintings": "small-color-paintings",
-    "Tall-Sprayed-Vase-and-Handled-Vase": "tall-sprayed-vase-and-handled-vase",
-    "Turned-Vase-and-Blue-Globe-Bowl": "turned-vase-and-blue-globe-bowl",
-    "Teabowls": "teabowls-2016", "Burned-Mountain-Vase": "burned-mountain-vase",
+    "Two-pots": "vessels-2016-2017", "Brittany": "brittany-gallery-show-2022", "Pots-2024": "sculpture-2022",
+    "Cut-Bonnet-Vase": "vessels-2016-2017", "Tea-pottery-1": "blue-and-white-bowls-2018",
+    "Painted-Lyric-Bowls-S-S": "bowls-2018", "Tea-pottery": "tea-bowls-2018",
+    "Small-Color-Paintings": "paintings-2017",
+    "Tall-Sprayed-Vase-and-Handled-Vase": "vessels-2016-2017",
+    "Turned-Vase-and-Blue-Globe-Bowl": "vessels-2016-2017",
+    "Teabowls": "tea-bowls-2016", "Burned-Mountain-Vase": "vessels-2016-2017",
 }
 
 # Projects whose URL changed after launch: old slug -> new slug
 RENAMED_PROJECTS = {
-    "teabowls": "teabowls-2016",
-    "tea-pottery": "tea-bowls-spattered-glazes-2018",
-    "tea-pottery-1": "tea-bowls-blue-brushwork-2018",
+    "teabowls": "tea-bowls-2016",
+    "tea-pottery": "tea-bowls-2018",
+    "tea-pottery-1": "blue-and-white-bowls-2018",
+    "brittany": "brittany-gallery-show-2022",
+    "tea-bowls-blue-brushwork-2018": "blue-and-white-bowls-2018",
+    "tea-bowls-spattered-glazes-2018": "tea-bowls-2018",
+    "small-color-paintings": "paintings-2017",
+    "teabowls-2016": "tea-bowls-2016",
+    "pots-2024": "sculpture-2022",
+    "painted-lyric-bowls-s-s": "bowls-2018",
+    "two-pots": "vessels-2016-2017",
+    "tall-sprayed-vase-and-handled-vase": "vessels-2016-2017",
+    "burned-mountain-vase": "vessels-2016-2017",
+    "cut-bonnet-vase": "vessels-2016-2017",
+    "turned-vase-and-blue-globe-bowl": "vessels-2016-2017",
 }
 
 e = html.escape

@@ -2,21 +2,675 @@
   "title": "Charles Talbot Studio",
   "projects": [
     {
-      "slug": "two-pots",
-      "title": "Two pots",
-      "section": "none",
-      "date": "2016",
+      "slug": "sculpture-2025-2026",
+      "title": "Sculpture, 2025–2026",
+      "section": "recent",
+      "date": "2025–2026",
       "cover": {
-        "file": "images/two-pots/cover.jpg",
-        "w": 400,
-        "h": 268
+        "file": "images/sculpture-2025-2026/cover.jpg",
+        "w": 600,
+        "h": 750
       },
       "images": [
         {
-          "file": "images/two-pots/cover.jpg",
-          "w": 400,
-          "h": 268,
-          "alt": "Two pots"
+          "file": "images/sculpture-2025-2026/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/01.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/02.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/03.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/04.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 5",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/05.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 6",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/06.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 7",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/07.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 8",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/08.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 9",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/09.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 10",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/10.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 11",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/11.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 12",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/12.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/13.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 13",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/13.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/14.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 14",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/14.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/15.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 15",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/15.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/16.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 16",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/16.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/17.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 17",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/17.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/18.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 18",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/18.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/19.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 19",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/19.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/20.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 20",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/20.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/21.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 21",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/21.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/22.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 22",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/22.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/23.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 23",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/23.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/24.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 24",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/24.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/25.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 25",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/25.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/26.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 26",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/26.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/27.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 27",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/27.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/28.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 28",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/28.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/29.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 29",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/29.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/30.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 30",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/30.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/31.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 31",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/31.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/32.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 32",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/32.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/33.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 33",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/33.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/34.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 34",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/34.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/35.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 35",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/35.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/36.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 36",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/36.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/37.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 37",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/37.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/38.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 38",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/38.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/39.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 39",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/39.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/40.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 40",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/40.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/41.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 41",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/41.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/42.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 42",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/42.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/43.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 43",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/43.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/44.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 44",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/44.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/45.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 45",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/45.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/46.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 46",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/46.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/47.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 47",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/47.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/48.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 48",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/48.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/49.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 49",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/49.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/50.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 50",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/50.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/51.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 51",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/51.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/52.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 52",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/52.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/53.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 53",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/53.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/54.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 54",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/54.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/55.jpg",
+          "w": 1351,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 55",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/55.jpg"
+        },
+        {
+          "file": "images/sculpture-2025-2026/56.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2025–2026, photo 56",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2025-2026/thumbs/56.jpg"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "sculpture-at-home-2025-2026",
+      "title": "Sculpture at Home, 2025–2026",
+      "section": "recent",
+      "date": "2025–2026",
+      "cover": {
+        "file": "images/sculpture-at-home-2025-2026/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/sculpture-at-home-2025-2026/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 1"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 2"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 3"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 4"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 5"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 6"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 7"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 8"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 9"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 10"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 11"
+        },
+        {
+          "file": "images/sculpture-at-home-2025-2026/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture at Home, 2025–2026, photo 12"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "bottles-and-jars-2026",
+      "title": "Bottles and Jars, 2026",
+      "section": "recent",
+      "date": "2026",
+      "cover": {
+        "file": "images/bottles-and-jars-2026/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/bottles-and-jars-2026/01.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bottles and Jars, 2026, photo 1"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 2"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 3"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 4"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 5"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 6"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 7"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 8"
+        },
+        {
+          "file": "images/bottles-and-jars-2026/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bottles and Jars, 2026, photo 9"
         }
       ],
       "description": "",
@@ -24,8 +678,8 @@
     },
     {
       "slug": "drawings",
-      "title": "Drawings",
-      "section": "none",
+      "title": "Drawings, 2022–2026",
+      "section": "recent",
       "date": "2022–2026",
       "cover": {
         "file": "images/drawings/cover.jpg",
@@ -371,157 +1025,1468 @@
       "details": {}
     },
     {
-      "slug": "brittany",
-      "title": "Brittany",
+      "slug": "cups-and-bowls-2023",
+      "title": "Cups and Bowls, 2023",
+      "section": "recent",
+      "date": "2023",
+      "cover": {
+        "file": "images/cups-and-bowls-2023/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/cups-and-bowls-2023/01.jpg",
+          "w": 1349,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/01.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/02.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/03.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/04.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 5",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/05.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 6",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/06.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 7",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/07.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 8",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/08.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 9",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/09.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 10",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/10.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 11",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/11.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 12",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/12.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/13.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 13",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/13.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/14.jpg",
+          "w": 1349,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 14",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/14.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/15.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 15",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/15.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/16.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 16",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/16.jpg"
+        },
+        {
+          "file": "images/cups-and-bowls-2023/17.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Cups and Bowls, 2023, photo 17",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/cups-and-bowls-2023/thumbs/17.jpg"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "sculpture-2023",
+      "title": "Sculpture, 2023",
+      "section": "recent",
+      "date": "2023",
+      "cover": {
+        "file": "images/sculpture-2023/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/sculpture-2023/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/01.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/02.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/03.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/04.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 5",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/05.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 6",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/06.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 7",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/07.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 8",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/08.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 9",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/09.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 10",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/10.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 11",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/11.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 12",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/12.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/13.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 13",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/13.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/14.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 14",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/14.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/15.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 15",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/15.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/16.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 16",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/16.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/17.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 17",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/17.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/18.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 18",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/18.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/19.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 19",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/19.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/20.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 20",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/20.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/21.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 21",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/21.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/22.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 22",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/22.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/23.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 23",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/23.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/24.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 24",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/24.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/25.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 25",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/25.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/26.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 26",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/26.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/27.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 27",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/27.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/28.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 28",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/28.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/29.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 29",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/29.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/30.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 30",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/30.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/31.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 31",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/31.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/32.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 32",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/32.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/33.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 33",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/33.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/34.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 34",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/34.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/35.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 35",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/35.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/36.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 36",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/36.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/37.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 37",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/37.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/38.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 38",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/38.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/39.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 39",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/39.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/40.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 40",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/40.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/41.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 41",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/41.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/42.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 42",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/42.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/43.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 43",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/43.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/44.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 44",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/44.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/45.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 45",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/45.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/46.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 46",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/46.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/47.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 47",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/47.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/48.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 48",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/48.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/49.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 49",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/49.jpg"
+        },
+        {
+          "file": "images/sculpture-2023/50.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2023, photo 50",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2023/thumbs/50.jpg"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "sculpture-2022",
+      "title": "Sculpture, 2022",
       "section": "recent",
       "date": "2022",
       "cover": {
-        "file": "images/brittany/cover.jpg",
+        "file": "images/sculpture-2022/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/sculpture-2022/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/01.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/02.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/03.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/04.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 5",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/05.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 6",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/06.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/07.jpg",
+          "w": 1349,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 7",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/07.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 8",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/08.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 9",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/09.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 10",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/10.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 11",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/11.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 12",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/12.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/13.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 13",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/13.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/14.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 14",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/14.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/15.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 15",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/15.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/16.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 16",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/16.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/17.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 17",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/17.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/18.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 18",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/18.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/19.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 19",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/19.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/20.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 20",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/20.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/21.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 21",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/21.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/22.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 22",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/22.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/23.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 23",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/23.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/24.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 24",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/24.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/25.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 25",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/25.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/26.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 26",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/26.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/27.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 27",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/27.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/28.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 28",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/28.jpg"
+        },
+        {
+          "file": "images/sculpture-2022/29.jpg",
+          "w": 1440,
+          "h": 1800,
+          "alt": "Sculpture, 2022, photo 29",
+          "tw": 512,
+          "th": 640,
+          "thumb": "images/sculpture-2022/thumbs/29.jpg"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "bowls-and-cups-2022",
+      "title": "Bowls and Cups, 2022",
+      "section": "recent",
+      "date": "2022",
+      "cover": {
+        "file": "images/bowls-and-cups-2022/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/bowls-and-cups-2022/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/01.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/02.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/03.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/04.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/04.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/05.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 5",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/05.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/06.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 6",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/06.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/07.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 7",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/07.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/08.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 8",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/08.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 9",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/09.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 10",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/10.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 11",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/11.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/12.jpg",
+          "w": 1351,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 12",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/12.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/13.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 13",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/13.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/14.jpg",
+          "w": 1349,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 14",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/14.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/15.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 15",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/15.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/16.jpg",
+          "w": 1351,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 16",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/16.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/17.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 17",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/17.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/18.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 18",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/18.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/19.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 19",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/19.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/20.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 20",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/20.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/21.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 21",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/21.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/22.jpg",
+          "w": 1351,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 22",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/22.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/23.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 23",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/23.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/24.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 24",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/24.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/25.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 25",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/25.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/26.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 26",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/26.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/27.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 27",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/27.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/28.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 28",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/28.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/29.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 29",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/29.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/30.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 30",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/30.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/31.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 31",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/31.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/32.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 32",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/32.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/33.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 33",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/33.jpg"
+        },
+        {
+          "file": "images/bowls-and-cups-2022/34.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Bowls and Cups, 2022, photo 34",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/bowls-and-cups-2022/thumbs/34.jpg"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "paintings-2022-2023",
+      "title": "Paintings, 2022–2023",
+      "section": "recent",
+      "date": "2022–2023",
+      "cover": {
+        "file": "images/paintings-2022-2023/cover.jpg",
+        "w": 600,
+        "h": 750
+      },
+      "images": [
+        {
+          "file": "images/paintings-2022-2023/01.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 1"
+        },
+        {
+          "file": "images/paintings-2022-2023/02.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 2"
+        },
+        {
+          "file": "images/paintings-2022-2023/03.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 3"
+        },
+        {
+          "file": "images/paintings-2022-2023/04.jpg",
+          "w": 1357,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 4"
+        },
+        {
+          "file": "images/paintings-2022-2023/05.jpg",
+          "w": 1429,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 5"
+        },
+        {
+          "file": "images/paintings-2022-2023/06.jpg",
+          "w": 1359,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 6"
+        },
+        {
+          "file": "images/paintings-2022-2023/07.jpg",
+          "w": 1443,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 7"
+        },
+        {
+          "file": "images/paintings-2022-2023/08.jpg",
+          "w": 1468,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 8"
+        },
+        {
+          "file": "images/paintings-2022-2023/09.jpg",
+          "w": 1356,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 9"
+        },
+        {
+          "file": "images/paintings-2022-2023/10.jpg",
+          "w": 1355,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 10"
+        },
+        {
+          "file": "images/paintings-2022-2023/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Paintings, 2022–2023, photo 11"
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "brittany-gallery-show-2022",
+      "title": "Brittany Gallery Show, 2022",
+      "section": "recent",
+      "date": "2022",
+      "cover": {
+        "file": "images/brittany-gallery-show-2022/cover.jpg",
         "w": 600,
         "h": 624
       },
       "images": [
         {
-          "file": "images/brittany/01.jpg",
+          "file": "images/brittany-gallery-show-2022/01.jpg",
           "w": 1280,
           "h": 953,
-          "alt": "Brittany, image 1",
-          "thumb": "images/brittany/thumbs/01.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 1",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/01.jpg",
           "tw": 640,
           "th": 477
         },
         {
-          "file": "images/brittany/02.jpg",
+          "file": "images/brittany-gallery-show-2022/02.jpg",
           "w": 1280,
           "h": 954,
-          "alt": "Brittany, image 2",
-          "thumb": "images/brittany/thumbs/02.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 2",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/02.jpg",
           "tw": 640,
           "th": 477
         },
         {
-          "file": "images/brittany/03.jpg",
+          "file": "images/brittany-gallery-show-2022/03.jpg",
           "w": 1280,
           "h": 960,
-          "alt": "Brittany, image 3",
-          "thumb": "images/brittany/thumbs/03.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 3",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/03.jpg",
           "tw": 640,
           "th": 480
         },
         {
-          "file": "images/brittany/04.jpg",
+          "file": "images/brittany-gallery-show-2022/04.jpg",
           "w": 1280,
           "h": 953,
-          "alt": "Brittany, image 4",
-          "thumb": "images/brittany/thumbs/04.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 4",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/04.jpg",
           "tw": 640,
           "th": 477
         },
         {
-          "file": "images/brittany/05.jpg",
+          "file": "images/brittany-gallery-show-2022/05.jpg",
           "w": 1280,
           "h": 954,
-          "alt": "Brittany, image 5",
-          "thumb": "images/brittany/thumbs/05.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 5",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/05.jpg",
           "tw": 640,
           "th": 477
         },
         {
-          "file": "images/brittany/06.jpg",
+          "file": "images/brittany-gallery-show-2022/06.jpg",
           "w": 1800,
           "h": 1330,
-          "alt": "Brittany, image 6",
-          "thumb": "images/brittany/thumbs/06.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 6",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/06.jpg",
           "tw": 640,
           "th": 473
         },
         {
-          "file": "images/brittany/07.jpg",
+          "file": "images/brittany-gallery-show-2022/07.jpg",
           "w": 1280,
           "h": 960,
-          "alt": "Brittany, image 7",
-          "thumb": "images/brittany/thumbs/07.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 7",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/07.jpg",
           "tw": 640,
           "th": 480
         },
         {
-          "file": "images/brittany/08.jpg",
+          "file": "images/brittany-gallery-show-2022/08.jpg",
           "w": 1280,
           "h": 949,
-          "alt": "Brittany, image 8",
-          "thumb": "images/brittany/thumbs/08.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 8",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/08.jpg",
           "tw": 640,
           "th": 475
         },
         {
-          "file": "images/brittany/09.jpg",
+          "file": "images/brittany-gallery-show-2022/09.jpg",
           "w": 1280,
           "h": 955,
-          "alt": "Brittany, image 9",
-          "thumb": "images/brittany/thumbs/09.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 9",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/09.jpg",
           "tw": 640,
           "th": 478
         },
         {
-          "file": "images/brittany/10.jpg",
+          "file": "images/brittany-gallery-show-2022/10.jpg",
           "w": 1280,
           "h": 951,
-          "alt": "Brittany, image 10",
-          "thumb": "images/brittany/thumbs/10.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 10",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/10.jpg",
           "tw": 640,
           "th": 476
         },
         {
-          "file": "images/brittany/11.jpg",
+          "file": "images/brittany-gallery-show-2022/11.jpg",
           "w": 1280,
           "h": 951,
-          "alt": "Brittany, image 11",
-          "thumb": "images/brittany/thumbs/11.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 11",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/11.jpg",
           "tw": 640,
           "th": 476
         },
         {
-          "file": "images/brittany/12.jpg",
+          "file": "images/brittany-gallery-show-2022/12.jpg",
           "w": 1280,
           "h": 946,
-          "alt": "Brittany, image 12",
-          "thumb": "images/brittany/thumbs/12.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 12",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/12.jpg",
           "tw": 640,
           "th": 473
         },
         {
-          "file": "images/brittany/13.jpg",
+          "file": "images/brittany-gallery-show-2022/13.jpg",
           "w": 1280,
           "h": 1550,
-          "alt": "Brittany, image 13",
-          "thumb": "images/brittany/thumbs/13.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 13",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/13.jpg",
           "tw": 529,
           "th": 640
         },
         {
-          "file": "images/brittany/14.jpg",
+          "file": "images/brittany-gallery-show-2022/14.jpg",
           "w": 1280,
           "h": 1723,
-          "alt": "Brittany, image 14",
-          "thumb": "images/brittany/thumbs/14.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 14",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/14.jpg",
           "tw": 475,
           "th": 640
         },
         {
-          "file": "images/brittany/15.jpg",
+          "file": "images/brittany-gallery-show-2022/15.jpg",
           "w": 1280,
           "h": 954,
-          "alt": "Brittany, image 15",
-          "thumb": "images/brittany/thumbs/15.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 15",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/15.jpg",
           "tw": 640,
           "th": 477
         },
         {
-          "file": "images/brittany/16.jpg",
+          "file": "images/brittany-gallery-show-2022/16.jpg",
           "w": 1280,
           "h": 960,
-          "alt": "Brittany, image 16",
-          "thumb": "images/brittany/thumbs/16.jpg",
+          "alt": "Brittany Gallery Show, 2022, photo 16",
+          "thumb": "images/brittany-gallery-show-2022/thumbs/16.jpg",
           "tw": 640,
           "th": 480
         }
@@ -530,1417 +2495,907 @@
       "details": {}
     },
     {
-      "slug": "pots-2024",
-      "title": "Pots 2024",
-      "section": "recent",
-      "date": "",
+      "slug": "vases-and-bowls-2021",
+      "title": "Vases and Bowls, 2021",
+      "section": "archives",
+      "date": "2021",
       "cover": {
-        "file": "images/pots-2024/cover.jpg",
-        "w": 480,
-        "h": 600
+        "file": "images/vases-and-bowls-2021/cover.jpg",
+        "w": 600,
+        "h": 750
       },
       "images": [
         {
-          "file": "images/pots-2024/01.jpg",
+          "file": "images/vases-and-bowls-2021/01.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 1"
+          "alt": "Vases and Bowls, 2021, photo 1"
         },
         {
-          "file": "images/pots-2024/02.jpg",
-          "w": 1440,
-          "h": 1800,
-          "alt": "Pots 2024, image 2"
-        },
-        {
-          "file": "images/pots-2024/03.jpg",
+          "file": "images/vases-and-bowls-2021/02.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 3"
+          "alt": "Vases and Bowls, 2021, photo 2"
         },
         {
-          "file": "images/pots-2024/04.jpg",
+          "file": "images/vases-and-bowls-2021/03.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 4"
+          "alt": "Vases and Bowls, 2021, photo 3"
         },
         {
-          "file": "images/pots-2024/05.jpg",
-          "w": 1440,
+          "file": "images/vases-and-bowls-2021/04.jpg",
+          "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 5"
+          "alt": "Vases and Bowls, 2021, photo 4"
         },
         {
-          "file": "images/pots-2024/06.jpg",
-          "w": 1440,
+          "file": "images/vases-and-bowls-2021/05.jpg",
+          "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 6"
+          "alt": "Vases and Bowls, 2021, photo 5"
         },
         {
-          "file": "images/pots-2024/07.jpg",
-          "w": 1440,
+          "file": "images/vases-and-bowls-2021/06.jpg",
+          "w": 1349,
           "h": 1800,
-          "alt": "Pots 2024, image 7"
+          "alt": "Vases and Bowls, 2021, photo 6"
         },
         {
-          "file": "images/pots-2024/08.jpg",
-          "w": 1440,
+          "file": "images/vases-and-bowls-2021/07.jpg",
+          "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 8"
+          "alt": "Vases and Bowls, 2021, photo 7"
         },
         {
-          "file": "images/pots-2024/09.jpg",
-          "w": 1440,
+          "file": "images/vases-and-bowls-2021/08.jpg",
+          "w": 1350,
           "h": 1800,
-          "alt": "Pots 2024, image 9"
+          "alt": "Vases and Bowls, 2021, photo 8"
+        },
+        {
+          "file": "images/vases-and-bowls-2021/09.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Vases and Bowls, 2021, photo 9"
+        },
+        {
+          "file": "images/vases-and-bowls-2021/10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Vases and Bowls, 2021, photo 10"
+        },
+        {
+          "file": "images/vases-and-bowls-2021/11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Vases and Bowls, 2021, photo 11"
+        },
+        {
+          "file": "images/vases-and-bowls-2021/12.jpg",
+          "w": 1350,
+          "h": 1800,
+          "alt": "Vases and Bowls, 2021, photo 12"
         }
       ],
       "description": "",
       "details": {}
     },
     {
-      "slug": "cut-bonnet-vase",
-      "title": "Cut Bonnet Vase",
-      "section": "recent",
-      "date": "",
-      "cover": {
-        "file": "images/cut-bonnet-vase/cover.jpg",
-        "w": 400,
-        "h": 600
-      },
-      "images": [
-        {
-          "file": "images/cut-bonnet-vase/01.jpg",
-          "w": 1200,
-          "h": 1800,
-          "alt": "Cut Bonnet Vase, image 1"
-        },
-        {
-          "file": "images/cut-bonnet-vase/02.jpg",
-          "w": 1163,
-          "h": 1800,
-          "alt": "Cut Bonnet Vase, image 2"
-        },
-        {
-          "file": "images/cut-bonnet-vase/03.jpg",
-          "w": 1200,
-          "h": 1800,
-          "alt": "Cut Bonnet Vase, image 3"
-        },
-        {
-          "file": "images/cut-bonnet-vase/04.jpg",
-          "w": 1200,
-          "h": 1800,
-          "alt": "Cut Bonnet Vase, image 4"
-        },
-        {
-          "file": "images/cut-bonnet-vase/05.jpg",
-          "w": 1200,
-          "h": 1800,
-          "alt": "Cut Bonnet Vase, image 5"
-        }
-      ],
-      "description": "",
-      "details": {}
-    },
-    {
-      "slug": "tea-bowls-blue-brushwork-2018",
-      "title": "Tea Bowls: Blue Brushwork, 2018",
-      "section": "none",
-      "date": "August 2018",
-      "cover": {
-        "file": "images/tea-bowls-blue-brushwork-2018/cover.jpg",
-        "w": 400,
-        "h": 268
-      },
-      "images": [
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/01.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 1",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/01.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/02.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 2",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/02.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/03.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 3",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/03.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/04.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 4",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/04.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/05.jpg",
-          "w": 1280,
-          "h": 854,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 5",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/05.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/06.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 6",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/06.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/07.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 7",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/07.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/08.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 8",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/08.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/09.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 9",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/09.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/10.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 10",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/10.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/11.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 11",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/11.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/12.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 12",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/12.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/13.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 13",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/13.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/14.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 14",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/14.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/15.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 15",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/15.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/16.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 16",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/16.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/17.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 17",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/17.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/18.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 18",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/18.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/19.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 19",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/19.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/20.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 20",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/20.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/21.jpg",
-          "w": 1280,
-          "h": 854,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 21",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/21.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/22.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 22",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/22.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/23.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 23",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/23.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/24.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 24",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/24.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/25.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 25",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/25.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/26.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 26",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/26.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/27.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 27",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/27.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/28.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 28",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/28.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/29.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 29",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/29.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/30.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 30",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/30.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/31.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 31",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/31.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/32.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 32",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/32.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/33.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 33",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/33.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/34.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 34",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/34.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/35.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 35",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/35.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/36.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 36",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/36.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/37.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 37",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/37.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/38.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 38",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/38.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/39.jpg",
-          "w": 1280,
-          "h": 854,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 39",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/39.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/40.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 40",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/40.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/41.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 41",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/41.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/42.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 42",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/42.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/43.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 43",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/43.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-blue-brushwork-2018/44.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Blue Brushwork, 2018, image 44",
-          "thumb": "images/tea-bowls-blue-brushwork-2018/thumbs/44.jpg",
-          "tw": 640,
-          "th": 427
-        }
-      ],
-      "description": "",
-      "details": {}
-    },
-    {
-      "slug": "painted-lyric-bowls-s-s",
-      "title": "Painted Lyric Bowls, S/S",
-      "section": "none",
+      "slug": "bowls-2018",
+      "title": "Bowls, 2018",
+      "section": "archives",
       "date": "2018",
       "cover": {
-        "file": "images/painted-lyric-bowls-s-s/cover.jpg",
-        "w": 400,
-        "h": 268
+        "file": "images/bowls-2018/cover.jpg",
+        "w": 600,
+        "h": 750
       },
       "images": [
         {
-          "file": "images/painted-lyric-bowls-s-s/01.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 1",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/01.jpg",
+          "file": "images/bowls-2018/01.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 1",
           "tw": 640,
-          "th": 427
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/01.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/02.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 2",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/02.jpg",
+          "file": "images/bowls-2018/02.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 2",
           "tw": 640,
-          "th": 427
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/02.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/03.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 3",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/03.jpg",
+          "file": "images/bowls-2018/03.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 3",
           "tw": 640,
-          "th": 427
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/03.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/04.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 4",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/04.jpg",
+          "file": "images/bowls-2018/04.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 4",
           "tw": 640,
-          "th": 427
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/04.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/05.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 5",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/05.jpg",
+          "file": "images/bowls-2018/05.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 5",
           "tw": 640,
-          "th": 427
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/05.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/06.jpg",
+          "file": "images/bowls-2018/06.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 6",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/06.jpg"
+        },
+        {
+          "file": "images/bowls-2018/07.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 7",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/07.jpg"
+        },
+        {
+          "file": "images/bowls-2018/08.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 8",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/08.jpg"
+        },
+        {
+          "file": "images/bowls-2018/09.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 9",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/09.jpg"
+        },
+        {
+          "file": "images/bowls-2018/10.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 10",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/10.jpg"
+        },
+        {
+          "file": "images/bowls-2018/11.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 11",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/11.jpg"
+        },
+        {
+          "file": "images/bowls-2018/12.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 12",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/12.jpg"
+        },
+        {
+          "file": "images/bowls-2018/13.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 13",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/13.jpg"
+        },
+        {
+          "file": "images/bowls-2018/14.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 14",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/14.jpg"
+        },
+        {
+          "file": "images/bowls-2018/15.jpg",
+          "w": 1800,
+          "h": 1350,
+          "alt": "Bowls, 2018, photo 15",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/bowls-2018/thumbs/15.jpg"
+        },
+        {
+          "file": "images/bowls-2018/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Bowls, 2018, photo 16",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/16.jpg"
+        },
+        {
+          "file": "images/bowls-2018/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Bowls, 2018, photo 17",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/17.jpg"
+        },
+        {
+          "file": "images/bowls-2018/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Bowls, 2018, photo 18",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/18.jpg"
+        },
+        {
+          "file": "images/bowls-2018/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Bowls, 2018, photo 19",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/19.jpg"
+        },
+        {
+          "file": "images/bowls-2018/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Bowls, 2018, photo 20",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/20.jpg"
+        },
+        {
+          "file": "images/bowls-2018/21.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 6",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/06.jpg",
+          "alt": "Bowls, 2018, photo 21",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/21.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/07.jpg",
+          "file": "images/bowls-2018/22.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 7",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/07.jpg",
+          "alt": "Bowls, 2018, photo 22",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/22.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/08.jpg",
+          "file": "images/bowls-2018/23.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 8",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/08.jpg",
+          "alt": "Bowls, 2018, photo 23",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/23.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/09.jpg",
+          "file": "images/bowls-2018/24.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 9",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/09.jpg",
+          "alt": "Bowls, 2018, photo 24",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/24.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/10.jpg",
+          "file": "images/bowls-2018/25.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 10",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/10.jpg",
+          "alt": "Bowls, 2018, photo 25",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/25.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/11.jpg",
+          "file": "images/bowls-2018/26.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 11",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/11.jpg",
+          "alt": "Bowls, 2018, photo 26",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/26.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/12.jpg",
+          "file": "images/bowls-2018/27.jpg",
           "w": 1280,
           "h": 828,
-          "alt": "Painted Lyric Bowls, S/S, image 12",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/12.jpg",
+          "alt": "Bowls, 2018, photo 27",
           "tw": 640,
-          "th": 414
+          "th": 414,
+          "thumb": "images/bowls-2018/thumbs/27.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/13.jpg",
+          "file": "images/bowls-2018/28.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 13",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/13.jpg",
+          "alt": "Bowls, 2018, photo 28",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/28.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/14.jpg",
+          "file": "images/bowls-2018/29.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 14",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/14.jpg",
+          "alt": "Bowls, 2018, photo 29",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/29.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/15.jpg",
+          "file": "images/bowls-2018/30.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 15",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/15.jpg",
+          "alt": "Bowls, 2018, photo 30",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/30.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/16.jpg",
+          "file": "images/bowls-2018/31.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 16",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/16.jpg",
+          "alt": "Bowls, 2018, photo 31",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/31.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/17.jpg",
+          "file": "images/bowls-2018/32.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 17",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/17.jpg",
+          "alt": "Bowls, 2018, photo 32",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/32.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/18.jpg",
+          "file": "images/bowls-2018/33.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 18",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/18.jpg",
+          "alt": "Bowls, 2018, photo 33",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/33.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/19.jpg",
+          "file": "images/bowls-2018/34.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 19",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/19.jpg",
+          "alt": "Bowls, 2018, photo 34",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/34.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/20.jpg",
+          "file": "images/bowls-2018/35.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 20",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/20.jpg",
+          "alt": "Bowls, 2018, photo 35",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/35.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/21.jpg",
+          "file": "images/bowls-2018/36.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 21",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/21.jpg",
+          "alt": "Bowls, 2018, photo 36",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/36.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/22.jpg",
+          "file": "images/bowls-2018/37.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 22",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/22.jpg",
+          "alt": "Bowls, 2018, photo 37",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/37.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/23.jpg",
+          "file": "images/bowls-2018/38.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 23",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/23.jpg",
+          "alt": "Bowls, 2018, photo 38",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/38.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/24.jpg",
+          "file": "images/bowls-2018/39.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 24",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/24.jpg",
+          "alt": "Bowls, 2018, photo 39",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/39.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/25.jpg",
+          "file": "images/bowls-2018/40.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 25",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/25.jpg",
+          "alt": "Bowls, 2018, photo 40",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/40.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/26.jpg",
+          "file": "images/bowls-2018/41.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 26",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/26.jpg",
+          "alt": "Bowls, 2018, photo 41",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/41.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/27.jpg",
+          "file": "images/bowls-2018/42.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Painted Lyric Bowls, S/S, image 27",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/27.jpg",
+          "alt": "Bowls, 2018, photo 42",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/42.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/28.jpg",
+          "file": "images/bowls-2018/43.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 28",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/28.jpg",
+          "alt": "Bowls, 2018, photo 43",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/43.jpg"
         },
         {
-          "file": "images/painted-lyric-bowls-s-s/29.jpg",
+          "file": "images/bowls-2018/44.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Painted Lyric Bowls, S/S, image 29",
-          "thumb": "images/painted-lyric-bowls-s-s/thumbs/29.jpg",
+          "alt": "Bowls, 2018, photo 44",
           "tw": 640,
-          "th": 427
+          "th": 427,
+          "thumb": "images/bowls-2018/thumbs/44.jpg"
         }
       ],
       "description": "",
       "details": {}
     },
     {
-      "slug": "tea-bowls-spattered-glazes-2018",
-      "title": "Tea Bowls: Spattered Glazes, 2018",
+      "slug": "blue-and-white-bowls-2018",
+      "title": "Blue and White Bowls, 2018",
       "section": "archives",
       "date": "August 2018",
       "cover": {
-        "file": "images/tea-bowls-spattered-glazes-2018/cover.jpg",
+        "file": "images/blue-and-white-bowls-2018/cover.jpg",
         "w": 400,
         "h": 268
       },
       "images": [
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/01.jpg",
+          "file": "images/blue-and-white-bowls-2018/01.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 1",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/01.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 1",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/01.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/02.jpg",
+          "file": "images/blue-and-white-bowls-2018/02.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 2",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/02.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 2",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/02.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/03.jpg",
+          "file": "images/blue-and-white-bowls-2018/03.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 3",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/03.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 3",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/03.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/04.jpg",
+          "file": "images/blue-and-white-bowls-2018/04.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 4",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/04.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 4",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/04.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/05.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 5",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/05.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/06.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 6",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/06.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/07.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 7",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/07.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/08.jpg",
+          "file": "images/blue-and-white-bowls-2018/05.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 8",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/08.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 5",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/05.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/09.jpg",
+          "file": "images/blue-and-white-bowls-2018/06.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 9",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/09.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 6",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/06.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/10.jpg",
+          "file": "images/blue-and-white-bowls-2018/07.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 10",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/10.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 7",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/07.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/11.jpg",
+          "file": "images/blue-and-white-bowls-2018/08.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 8",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/08.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/09.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 9",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/09.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/10.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 10",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/10.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/11.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 11",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/11.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/12.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 12",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/12.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/13.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 13",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/13.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/14.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 14",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/14.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/15.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 15",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/15.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 16",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/16.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 17",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/17.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 18",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/18.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 19",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/19.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 20",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/20.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/21.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 11",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/11.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 21",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/21.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/12.jpg",
+          "file": "images/blue-and-white-bowls-2018/22.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 12",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/12.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 22",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/22.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/13.jpg",
+          "file": "images/blue-and-white-bowls-2018/23.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 13",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/13.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 23",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/23.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/14.jpg",
+          "file": "images/blue-and-white-bowls-2018/24.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 14",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/14.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 24",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/24.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/15.jpg",
+          "file": "images/blue-and-white-bowls-2018/25.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 15",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/15.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 25",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/25.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/16.jpg",
+          "file": "images/blue-and-white-bowls-2018/26.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 16",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/16.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 26",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/26.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/17.jpg",
+          "file": "images/blue-and-white-bowls-2018/27.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 17",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/17.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 27",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/27.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/18.jpg",
+          "file": "images/blue-and-white-bowls-2018/28.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 18",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/18.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 28",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/28.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/19.jpg",
+          "file": "images/blue-and-white-bowls-2018/29.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 19",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/19.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 29",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/29.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/20.jpg",
+          "file": "images/blue-and-white-bowls-2018/30.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 20",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/20.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 30",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/30.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/21.jpg",
+          "file": "images/blue-and-white-bowls-2018/31.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 21",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/21.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 31",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/31.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/22.jpg",
+          "file": "images/blue-and-white-bowls-2018/32.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 22",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/22.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 32",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/32.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/23.jpg",
+          "file": "images/blue-and-white-bowls-2018/33.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 23",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/23.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 33",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/33.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/24.jpg",
+          "file": "images/blue-and-white-bowls-2018/34.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 24",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/24.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 34",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/34.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/25.jpg",
+          "file": "images/blue-and-white-bowls-2018/35.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 25",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/25.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 35",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/35.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/26.jpg",
+          "file": "images/blue-and-white-bowls-2018/36.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 26",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/26.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 36",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/36.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/27.jpg",
+          "file": "images/blue-and-white-bowls-2018/37.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 27",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/27.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 37",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/37.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/28.jpg",
+          "file": "images/blue-and-white-bowls-2018/38.jpg",
           "w": 1280,
           "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 28",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/28.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 38",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/38.jpg",
           "tw": 640,
           "th": 427
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/29.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 29",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/29.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/30.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 30",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/30.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/31.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 31",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/31.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/32.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 32",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/32.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/33.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 33",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/33.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/34.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 34",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/34.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/35.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 35",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/35.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/36.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 36",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/36.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/37.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 37",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/37.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/38.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 38",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/38.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/39.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 39",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/39.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/40.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 40",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/40.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/41.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 41",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/41.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/42.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 42",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/42.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/43.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 43",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/43.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/44.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 44",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/44.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/45.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 45",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/45.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/46.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 46",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/46.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/47.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 47",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/47.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/48.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 48",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/48.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/49.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 49",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/49.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/50.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 50",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/50.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/51.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 51",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/51.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/52.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 52",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/52.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/53.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 53",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/53.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/54.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 54",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/54.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/55.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 55",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/55.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/56.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 56",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/56.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/57.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 57",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/57.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/58.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 58",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/58.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/59.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 59",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/59.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/60.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 60",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/60.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/61.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 61",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/61.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/62.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 62",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/62.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/63.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 63",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/63.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/64.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 64",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/64.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/65.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 65",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/65.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/66.jpg",
-          "w": 1280,
-          "h": 853,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 66",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/66.jpg",
-          "tw": 640,
-          "th": 427
-        },
-        {
-          "file": "images/tea-bowls-spattered-glazes-2018/67.jpg",
+          "file": "images/blue-and-white-bowls-2018/39.jpg",
           "w": 1280,
           "h": 854,
-          "alt": "Tea Bowls: Spattered Glazes, 2018, image 67",
-          "thumb": "images/tea-bowls-spattered-glazes-2018/thumbs/67.jpg",
+          "alt": "Blue and White Bowls, 2018, photo 39",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/39.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/40.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 40",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/40.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/41.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 41",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/41.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/42.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 42",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/42.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/43.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 43",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/43.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/blue-and-white-bowls-2018/44.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Blue and White Bowls, 2018, photo 44",
+          "thumb": "images/blue-and-white-bowls-2018/thumbs/44.jpg",
           "tw": 640,
           "th": 427
         }
@@ -1949,221 +3404,889 @@
       "details": {}
     },
     {
-      "slug": "small-color-paintings",
-      "title": "Small Color Paintings",
+      "slug": "tea-bowls-2018",
+      "title": "Tea Bowls, 2018",
+      "section": "archives",
+      "date": "August 2018",
+      "cover": {
+        "file": "images/tea-bowls-2018/cover.jpg",
+        "w": 400,
+        "h": 268
+      },
+      "images": [
+        {
+          "file": "images/tea-bowls-2018/01.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 1",
+          "thumb": "images/tea-bowls-2018/thumbs/01.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/02.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 2",
+          "thumb": "images/tea-bowls-2018/thumbs/02.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/03.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 3",
+          "thumb": "images/tea-bowls-2018/thumbs/03.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/04.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 4",
+          "thumb": "images/tea-bowls-2018/thumbs/04.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/05.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 5",
+          "thumb": "images/tea-bowls-2018/thumbs/05.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/06.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 6",
+          "thumb": "images/tea-bowls-2018/thumbs/06.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/07.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 7",
+          "thumb": "images/tea-bowls-2018/thumbs/07.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/08.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea Bowls, 2018, photo 8",
+          "thumb": "images/tea-bowls-2018/thumbs/08.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/09.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 9",
+          "thumb": "images/tea-bowls-2018/thumbs/09.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/10.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 10",
+          "thumb": "images/tea-bowls-2018/thumbs/10.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/11.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea Bowls, 2018, photo 11",
+          "thumb": "images/tea-bowls-2018/thumbs/11.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/12.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 12",
+          "thumb": "images/tea-bowls-2018/thumbs/12.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/13.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 13",
+          "thumb": "images/tea-bowls-2018/thumbs/13.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/14.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 14",
+          "thumb": "images/tea-bowls-2018/thumbs/14.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/15.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 15",
+          "thumb": "images/tea-bowls-2018/thumbs/15.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/16.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 16",
+          "thumb": "images/tea-bowls-2018/thumbs/16.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/17.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 17",
+          "thumb": "images/tea-bowls-2018/thumbs/17.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/18.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 18",
+          "thumb": "images/tea-bowls-2018/thumbs/18.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/19.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 19",
+          "thumb": "images/tea-bowls-2018/thumbs/19.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/20.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 20",
+          "thumb": "images/tea-bowls-2018/thumbs/20.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/21.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 21",
+          "thumb": "images/tea-bowls-2018/thumbs/21.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/22.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 22",
+          "thumb": "images/tea-bowls-2018/thumbs/22.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/23.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 23",
+          "thumb": "images/tea-bowls-2018/thumbs/23.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/24.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 24",
+          "thumb": "images/tea-bowls-2018/thumbs/24.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/25.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 25",
+          "thumb": "images/tea-bowls-2018/thumbs/25.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/26.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 26",
+          "thumb": "images/tea-bowls-2018/thumbs/26.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/27.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 27",
+          "thumb": "images/tea-bowls-2018/thumbs/27.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/28.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 28",
+          "thumb": "images/tea-bowls-2018/thumbs/28.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/29.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 29",
+          "thumb": "images/tea-bowls-2018/thumbs/29.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/30.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 30",
+          "thumb": "images/tea-bowls-2018/thumbs/30.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/31.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 31",
+          "thumb": "images/tea-bowls-2018/thumbs/31.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/32.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 32",
+          "thumb": "images/tea-bowls-2018/thumbs/32.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/33.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 33",
+          "thumb": "images/tea-bowls-2018/thumbs/33.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/34.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 34",
+          "thumb": "images/tea-bowls-2018/thumbs/34.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/35.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 35",
+          "thumb": "images/tea-bowls-2018/thumbs/35.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/36.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 36",
+          "thumb": "images/tea-bowls-2018/thumbs/36.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/37.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 37",
+          "thumb": "images/tea-bowls-2018/thumbs/37.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/38.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 38",
+          "thumb": "images/tea-bowls-2018/thumbs/38.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/39.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 39",
+          "thumb": "images/tea-bowls-2018/thumbs/39.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/40.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 40",
+          "thumb": "images/tea-bowls-2018/thumbs/40.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/41.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 41",
+          "thumb": "images/tea-bowls-2018/thumbs/41.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/42.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 42",
+          "thumb": "images/tea-bowls-2018/thumbs/42.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/43.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 43",
+          "thumb": "images/tea-bowls-2018/thumbs/43.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/44.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 44",
+          "thumb": "images/tea-bowls-2018/thumbs/44.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/45.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 45",
+          "thumb": "images/tea-bowls-2018/thumbs/45.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/46.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 46",
+          "thumb": "images/tea-bowls-2018/thumbs/46.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/47.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 47",
+          "thumb": "images/tea-bowls-2018/thumbs/47.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/48.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 48",
+          "thumb": "images/tea-bowls-2018/thumbs/48.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/49.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 49",
+          "thumb": "images/tea-bowls-2018/thumbs/49.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/50.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 50",
+          "thumb": "images/tea-bowls-2018/thumbs/50.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/51.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 51",
+          "thumb": "images/tea-bowls-2018/thumbs/51.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/52.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 52",
+          "thumb": "images/tea-bowls-2018/thumbs/52.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/53.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 53",
+          "thumb": "images/tea-bowls-2018/thumbs/53.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/54.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 54",
+          "thumb": "images/tea-bowls-2018/thumbs/54.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/55.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 55",
+          "thumb": "images/tea-bowls-2018/thumbs/55.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/56.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 56",
+          "thumb": "images/tea-bowls-2018/thumbs/56.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/57.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 57",
+          "thumb": "images/tea-bowls-2018/thumbs/57.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/58.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 58",
+          "thumb": "images/tea-bowls-2018/thumbs/58.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/59.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 59",
+          "thumb": "images/tea-bowls-2018/thumbs/59.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/60.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 60",
+          "thumb": "images/tea-bowls-2018/thumbs/60.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/61.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 61",
+          "thumb": "images/tea-bowls-2018/thumbs/61.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/62.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 62",
+          "thumb": "images/tea-bowls-2018/thumbs/62.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/63.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 63",
+          "thumb": "images/tea-bowls-2018/thumbs/63.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/64.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 64",
+          "thumb": "images/tea-bowls-2018/thumbs/64.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/65.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 65",
+          "thumb": "images/tea-bowls-2018/thumbs/65.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/66.jpg",
+          "w": 1280,
+          "h": 853,
+          "alt": "Tea Bowls, 2018, photo 66",
+          "thumb": "images/tea-bowls-2018/thumbs/66.jpg",
+          "tw": 640,
+          "th": 427
+        },
+        {
+          "file": "images/tea-bowls-2018/67.jpg",
+          "w": 1280,
+          "h": 854,
+          "alt": "Tea Bowls, 2018, photo 67",
+          "thumb": "images/tea-bowls-2018/thumbs/67.jpg",
+          "tw": 640,
+          "th": 427
+        }
+      ],
+      "description": "",
+      "details": {}
+    },
+    {
+      "slug": "paintings-2017",
+      "title": "Paintings, 2017",
       "section": "archives",
       "date": "2017",
       "cover": {
-        "file": "images/small-color-paintings/cover.jpg",
+        "file": "images/paintings-2017/cover.jpg",
         "w": 600,
         "h": 788
       },
       "images": [
         {
-          "file": "images/small-color-paintings/01.jpg",
+          "file": "images/paintings-2017/01.jpg",
           "w": 1172,
           "h": 1532,
-          "alt": "Small Color Paintings, image 1"
+          "alt": "Paintings, 2017, photo 1"
         },
         {
-          "file": "images/small-color-paintings/02.jpg",
+          "file": "images/paintings-2017/02.jpg",
           "w": 1381,
           "h": 1800,
-          "alt": "Small Color Paintings, image 2"
+          "alt": "Paintings, 2017, photo 2"
         },
         {
-          "file": "images/small-color-paintings/03.jpg",
+          "file": "images/paintings-2017/03.jpg",
           "w": 1042,
           "h": 1301,
-          "alt": "Small Color Paintings, image 3"
+          "alt": "Paintings, 2017, photo 3"
         },
         {
-          "file": "images/small-color-paintings/04.jpg",
+          "file": "images/paintings-2017/04.jpg",
           "w": 1166,
           "h": 1448,
-          "alt": "Small Color Paintings, image 4"
+          "alt": "Paintings, 2017, photo 4"
         },
         {
-          "file": "images/small-color-paintings/05.jpg",
+          "file": "images/paintings-2017/05.jpg",
           "w": 1117,
           "h": 1458,
-          "alt": "Small Color Paintings, image 5"
+          "alt": "Paintings, 2017, photo 5"
         },
         {
-          "file": "images/small-color-paintings/06.jpg",
+          "file": "images/paintings-2017/06.jpg",
           "w": 1406,
           "h": 1779,
-          "alt": "Small Color Paintings, image 6"
+          "alt": "Paintings, 2017, photo 6"
         },
         {
-          "file": "images/small-color-paintings/07.jpg",
+          "file": "images/paintings-2017/07.jpg",
           "w": 1365,
           "h": 1679,
-          "alt": "Small Color Paintings, image 7"
+          "alt": "Paintings, 2017, photo 7"
         },
         {
-          "file": "images/small-color-paintings/08.jpg",
+          "file": "images/paintings-2017/08.jpg",
           "w": 1274,
           "h": 1646,
-          "alt": "Small Color Paintings, image 8"
+          "alt": "Paintings, 2017, photo 8"
         },
         {
-          "file": "images/small-color-paintings/09.jpg",
+          "file": "images/paintings-2017/09.jpg",
           "w": 1038,
           "h": 1363,
-          "alt": "Small Color Paintings, image 9"
+          "alt": "Paintings, 2017, photo 9"
         }
       ],
       "description": "",
       "details": {}
     },
     {
-      "slug": "tall-sprayed-vase-and-handled-vase",
-      "title": "Tall Sprayed Vase and Handled Vase",
+      "slug": "vessels-2016-2017",
+      "title": "Vessels, 2016–2017",
       "section": "archives",
-      "date": "January 2016",
+      "date": "2016–2017",
       "cover": {
-        "file": "images/tall-sprayed-vase-and-handled-vase/cover.jpg",
-        "w": 576,
-        "h": 800
+        "file": "images/vessels-2016-2017/cover.jpg",
+        "w": 600,
+        "h": 750
       },
       "images": [
         {
-          "file": "images/tall-sprayed-vase-and-handled-vase/01.jpg",
+          "file": "images/vessels-2016-2017/01.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Tall Sprayed Vase and Handled Vase, image 1"
+          "alt": "Vessels, 2016–2017, photo 1",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/01.jpg"
         },
         {
-          "file": "images/tall-sprayed-vase-and-handled-vase/02.jpg",
+          "file": "images/vessels-2016-2017/02.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Tall Sprayed Vase and Handled Vase, image 2"
+          "alt": "Vessels, 2016–2017, photo 2",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/02.jpg"
         },
         {
-          "file": "images/tall-sprayed-vase-and-handled-vase/03.jpg",
+          "file": "images/vessels-2016-2017/03.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Tall Sprayed Vase and Handled Vase, image 3"
+          "alt": "Vessels, 2016–2017, photo 3",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/03.jpg"
         },
         {
-          "file": "images/tall-sprayed-vase-and-handled-vase/04.jpg",
+          "file": "images/vessels-2016-2017/04.jpg",
           "w": 1350,
           "h": 1800,
-          "alt": "Tall Sprayed Vase and Handled Vase, image 4"
-        }
-      ],
-      "description": "",
-      "details": {}
-    },
-    {
-      "slug": "turned-vase-and-blue-globe-bowl",
-      "title": "Turned Vase and Blue Globe Bowl",
-      "section": "archives",
-      "date": "2017",
-      "cover": {
-        "file": "images/turned-vase-and-blue-globe-bowl/cover.jpg",
-        "w": 400,
-        "h": 268
-      },
-      "images": [
+          "alt": "Vessels, 2016–2017, photo 4",
+          "tw": 480,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/04.jpg"
+        },
         {
-          "file": "images/turned-vase-and-blue-globe-bowl/01.jpg",
+          "file": "images/vessels-2016-2017/05.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Vessels, 2016–2017, photo 5",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/vessels-2016-2017/thumbs/05.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/06.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Vessels, 2016–2017, photo 6",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/vessels-2016-2017/thumbs/06.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/07.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Vessels, 2016–2017, photo 7",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/vessels-2016-2017/thumbs/07.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/08.jpg",
+          "w": 1024,
+          "h": 768,
+          "alt": "Vessels, 2016–2017, photo 8",
+          "tw": 640,
+          "th": 480,
+          "thumb": "images/vessels-2016-2017/thumbs/08.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/09.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Vessels, 2016–2017, photo 9",
+          "tw": 427,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/09.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/10.jpg",
+          "w": 1163,
+          "h": 1800,
+          "alt": "Vessels, 2016–2017, photo 10",
+          "tw": 414,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/10.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/11.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Vessels, 2016–2017, photo 11",
+          "tw": 427,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/11.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/12.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Vessels, 2016–2017, photo 12",
+          "tw": 427,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/12.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/13.jpg",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Vessels, 2016–2017, photo 13",
+          "tw": 427,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/13.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/14.jpg",
           "w": 639,
           "h": 959,
-          "alt": "Turned Vase and Blue Globe Bowl, image 1"
+          "alt": "Vessels, 2016–2017, photo 14",
+          "tw": 426,
+          "th": 640,
+          "thumb": "images/vessels-2016-2017/thumbs/14.jpg"
         },
         {
-          "file": "images/turned-vase-and-blue-globe-bowl/02.jpg",
+          "file": "images/vessels-2016-2017/15.jpg",
           "w": 1086,
           "h": 724,
-          "alt": "Turned Vase and Blue Globe Bowl, image 2"
+          "alt": "Vessels, 2016–2017, photo 15",
+          "tw": 640,
+          "th": 427,
+          "thumb": "images/vessels-2016-2017/thumbs/15.jpg"
+        },
+        {
+          "file": "images/vessels-2016-2017/16.jpg",
+          "w": 400,
+          "h": 268,
+          "alt": "Vessels, 2016–2017, photo 16",
+          "tw": 400,
+          "th": 268,
+          "thumb": "images/vessels-2016-2017/thumbs/16.jpg"
         }
       ],
-      "description": "",
+      "description": "Includes the Burned Mountain Vase (“picasso vase”), terra cotta, terra sigilata, 24 x 18 x 16 in.",
       "details": {}
     },
     {
-      "slug": "teabowls-2016",
-      "title": "Teabowls, 2016",
+      "slug": "tea-bowls-2016",
+      "title": "Tea Bowls, 2016",
       "section": "archives",
       "date": "June 2016",
       "cover": {
-        "file": "images/teabowls-2016/cover.jpg",
+        "file": "images/tea-bowls-2016/cover.jpg",
         "w": 400,
         "h": 268
       },
       "images": [
         {
-          "file": "images/teabowls-2016/01.jpg",
+          "file": "images/tea-bowls-2016/01.jpg",
           "w": 1250,
           "h": 833,
-          "alt": "Teabowls, 2016, image 1"
+          "alt": "Tea Bowls, 2016, photo 1"
         },
         {
-          "file": "images/teabowls-2016/02.jpg",
+          "file": "images/tea-bowls-2016/02.jpg",
           "w": 1800,
           "h": 1200,
-          "alt": "Teabowls, 2016, image 2"
+          "alt": "Tea Bowls, 2016, photo 2"
         },
         {
-          "file": "images/teabowls-2016/03.jpg",
+          "file": "images/tea-bowls-2016/03.jpg",
           "w": 1200,
           "h": 800,
-          "alt": "Teabowls, 2016, image 3"
+          "alt": "Tea Bowls, 2016, photo 3"
         },
         {
-          "file": "images/teabowls-2016/04.jpg",
+          "file": "images/tea-bowls-2016/04.jpg",
           "w": 1500,
           "h": 1000,
-          "alt": "Teabowls, 2016, image 4"
+          "alt": "Tea Bowls, 2016, photo 4"
         }
       ],
       "description": "",
       "details": {}
-    },
-    {
-      "slug": "burned-mountain-vase",
-      "title": "Burned Mountain Vase",
-      "section": "archives",
-      "date": "",
-      "cover": {
-        "file": "images/burned-mountain-vase/cover.jpg",
-        "w": 600,
-        "h": 540
-      },
-      "images": [
-        {
-          "file": "images/burned-mountain-vase/01.jpg",
-          "w": 1024,
-          "h": 768,
-          "alt": "Burned Mountain Vase, image 1"
-        },
-        {
-          "file": "images/burned-mountain-vase/02.jpg",
-          "w": 1024,
-          "h": 768,
-          "alt": "Burned Mountain Vase, image 2"
-        },
-        {
-          "file": "images/burned-mountain-vase/03.jpg",
-          "w": 1024,
-          "h": 768,
-          "alt": "Burned Mountain Vase, image 3"
-        },
-        {
-          "file": "images/burned-mountain-vase/04.jpg",
-          "w": 1024,
-          "h": 768,
-          "alt": "Burned Mountain Vase, image 4"
-        }
-      ],
-      "description": "",
-      "details": {
-        "title": "picasso vase",
-        "materials": "terra cotta, terra sigilata",
-        "dimensions": "24 x 18 x 16"
-      }
     }
   ],
   "pages": {

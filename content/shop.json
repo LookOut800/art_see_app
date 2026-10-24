@@ -65,25 +65,25 @@
       "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
       "thumb": {
-        "file": "images/tea-bowls-blue-brushwork-2018/thumbs/01.jpg",
+        "file": "images/blue-and-white-bowls-2018/thumbs/01.jpg",
         "w": 640,
         "h": 427
       },
       "photos": [
         {
-          "file": "images/tea-bowls-blue-brushwork-2018/01.jpg",
+          "file": "images/blue-and-white-bowls-2018/01.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 1"
         },
         {
-          "file": "images/tea-bowls-blue-brushwork-2018/02.jpg",
+          "file": "images/blue-and-white-bowls-2018/02.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 2"
         },
         {
-          "file": "images/tea-bowls-blue-brushwork-2018/03.jpg",
+          "file": "images/blue-and-white-bowls-2018/03.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 3"
@@ -106,31 +106,31 @@
       "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
       "thumb": {
-        "file": "images/tea-bowls-spattered-glazes-2018/thumbs/01.jpg",
+        "file": "images/tea-bowls-2018/thumbs/01.jpg",
         "w": 640,
         "h": 427
       },
       "photos": [
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/01.jpg",
+          "file": "images/tea-bowls-2018/01.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Spattered Tea Bowl No. 2, photo 1"
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/02.jpg",
+          "file": "images/tea-bowls-2018/02.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Spattered Tea Bowl No. 2, photo 2"
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/03.jpg",
+          "file": "images/tea-bowls-2018/03.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Spattered Tea Bowl No. 2, photo 3"
         },
         {
-          "file": "images/tea-bowls-spattered-glazes-2018/04.jpg",
+          "file": "images/tea-bowls-2018/04.jpg",
           "w": 1280,
           "h": 853,
           "alt": "Spattered Tea Bowl No. 2, photo 4"
@@ -153,19 +153,19 @@
       "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
       "thumb": {
-        "file": "images/teabowls-2016/01.jpg",
+        "file": "images/tea-bowls-2016/01.jpg",
         "w": 1250,
         "h": 833
       },
       "photos": [
         {
-          "file": "images/teabowls-2016/01.jpg",
+          "file": "images/tea-bowls-2016/01.jpg",
           "w": 1250,
           "h": 833,
           "alt": "Black Rimmed Teabowl, photo 1"
         },
         {
-          "file": "images/teabowls-2016/02.jpg",
+          "file": "images/tea-bowls-2016/02.jpg",
           "w": 1800,
           "h": 1200,
           "alt": "Black Rimmed Teabowl, photo 2"
