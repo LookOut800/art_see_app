@@ -12,7 +12,8 @@ images/<slug>/01.jpg, 02.jpg, ... Photos already on the site (anything under ima
 copied as they are, so earlier projects can be merged into a new one without editing them twice.
 A 4:5 cover is cut from --cover-from (default: the first photo), and grid thumbnails are made
 when the project has more photos than build.py shows in one column. A before/after sheet is
-written to inbox/sheets/<slug>.jpg. The project goes first on the home page unless --after
+written to inbox/sheets/<slug>.jpg. Each photo's entry in site.json keeps the name of the
+original ("source") and the date it was taken ("taken"); neither is shown on the site. The project goes first on the home page unless --after
 names the slug it should follow. Check the sheet, then run python3 build.py.
 """
 import argparse
@@ -61,10 +62,13 @@ def main():
     staging = os.path.join(ROOT, folder + ".new")  # sources may live in the folder being replaced
     shutil.rmtree(staging, ignore_errors=True)
     big = len(args.photos) > GRID_GALLERY_MIN
+    on_site = {im["file"]: im for p in projects for im in p["images"]}
     images, rows, cover_src = [], [], None
     for n, src in enumerate(args.photos, 1):
         name = f"{n:02d}.jpg"
+        copied = None
         if os.path.abspath(src).startswith(os.path.join(ROOT, "images") + os.sep):
+            copied = on_site.get(os.path.relpath(os.path.abspath(src), ROOT).replace(os.sep, "/"), {})
             im = Image.open(src).convert("RGB")
             os.makedirs(staging, exist_ok=True)
             shutil.copyfile(src, os.path.join(staging, name))
@@ -75,6 +79,10 @@ def main():
             w, h = process_photos.save(im, os.path.join(staging, name))
             rows.append((f"{os.path.basename(src)} -> {folder}/{name}", before, im, notes))
         entry = {"file": f"{folder}/{name}", "w": w, "h": h, "alt": f"{args.title}, photo {n}"}
+        if copied is not None:  # keep what was known about it on its earlier page
+            entry.update({k: copied[k] for k in ("source", "taken") if copied.get(k)})
+        else:
+            entry["source"], entry["taken"] = os.path.basename(src), process_photos.date_taken(src)
         if big:
             entry["tw"], entry["th"] = thumbnail(im, os.path.join(staging, "thumbs", name))
             entry["thumb"] = f"{folder}/thumbs/{name}"

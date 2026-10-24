@@ -213,6 +213,19 @@ def warp_canvas(im, corners):
     return Image.fromarray(out).crop((inset, inset, w - inset, h - inset))
 
 
+def date_taken(src):
+    """When the photo was taken, as YYYY-MM-DD from its EXIF, or "" if it does not say.
+
+    Read from the original before the metadata is dropped, so a web copy can still be traced
+    to a date (often, but not always, around when the piece was made)."""
+    try:
+        exif = Image.open(src).getexif()
+        when = exif.get_ifd(0x8769).get(36867) or exif.get(306)  # DateTimeOriginal, else DateTime
+    except Exception:
+        return ""
+    return when[:10].replace(":", "-") if when and when[:4].isdigit() else ""
+
+
 def region_color(im, frac_box):
     x0, y0, x1, y1 = (round(f * s) for f, s in zip(frac_box, (im.width, im.height) * 2))
     return np.median(np.asarray(im.crop((x0, y0, x1, y1))).reshape(-1, 3), axis=0)
