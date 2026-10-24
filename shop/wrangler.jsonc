@@ -10,10 +10,9 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
-  // Which pieces are held or sold. Create it once with: npx wrangler d1 create charlestalbot-shop
-  // and paste the database_id it prints here, then: npx wrangler d1 migrations apply charlestalbot-shop --remote
+  // Which pieces are held or sold. New migrations: npx wrangler d1 migrations apply charlestalbot-shop --remote
   "d1_databases": [
-    { "binding": "DB", "database_name": "charlestalbot-shop", "database_id": "REPLACE_WITH_D1_DATABASE_ID" }
+    { "binding": "DB", "database_name": "charlestalbot-shop", "database_id": "ef23a8d3-af13-4cff-8200-103695ea2362" }
   ],
   "vars": {
     // Checkout sends buyers back here. Locally, .dev.vars overrides it.
