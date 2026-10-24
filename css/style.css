@@ -105,6 +105,24 @@ main { margin-left: var(--sidebar); padding: 24px 28px 80px 12px; }
 .gallery-grid .zoom { display: block; }
 .gallery-grid img { width: 100%; max-height: none; transition: opacity .2s; }
 .gallery-grid .zoom:hover img, .gallery-grid .zoom:focus-visible img { opacity: .82; }
+/* Piece page: photos side by side, one at a time (stacked again on a phone, see Mobile) */
+.slider { max-width: 1100px; margin-top: 28px; }
+.gallery-slider {
+  display: flex; gap: 16px; margin-top: 0;
+  overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+  scrollbar-width: none; overscroll-behavior-x: contain;
+}
+.gallery-slider::-webkit-scrollbar { display: none; }
+.gallery-slider figure { flex: 0 0 100%; margin: 0; scroll-snap-align: center; display: flex; justify-content: center; }
+.gallery-slider img { height: min(78vh, 900px); width: auto; max-width: 100%; object-fit: contain; }
+.slider-ui { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 12px 0 8px; font-size: 14px; color: var(--muted); }
+.slider-ui button { background: none; border: 0; cursor: pointer; font: 28px/1 var(--sans); color: var(--fg); padding: 2px 12px; }
+.slider-ui button:hover { color: var(--accent); }
+.slider-ui button:disabled { opacity: .25; cursor: default; }
+.slider-thumbs { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.slider-thumbs button { padding: 0; border: 0; background: none; cursor: pointer; opacity: .55; transition: opacity .2s; }
+.slider-thumbs button:hover, .slider-thumbs button[aria-current="true"] { opacity: 1; }
+.slider-thumbs img { height: 56px; width: auto; display: block; }
 .pager {
   display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   max-width: 1100px; margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
@@ -203,6 +221,10 @@ body.lb-open { overflow: hidden; }
   .gallery img { width: 100%; max-height: none; }
   .zoom { display: block; }
   .gallery-grid { column-width: 140px; column-gap: 8px; }
+  .gallery-slider { display: block; overflow: visible; }
+  .gallery-slider figure { display: block; margin: 0 0 22px; }
+  .gallery-slider img { height: auto; }
+  .slider-ui, .slider-thumbs { display: none; }
   .item { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "gallery" "buy"; grid-template-rows: auto; row-gap: 20px; }
   .item-head .sku { margin-top: 0; }
   .buybox { position: static; }

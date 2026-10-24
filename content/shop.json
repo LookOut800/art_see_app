@@ -72,19 +72,19 @@
       "photos": [
         {
           "file": "images/blue-and-white-bowls-2018/01.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 967,
+          "h": 725,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 1"
         },
         {
           "file": "images/blue-and-white-bowls-2018/02.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 831,
+          "h": 623,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 2"
         },
         {
           "file": "images/blue-and-white-bowls-2018/03.jpg",
-          "w": 1280,
+          "w": 1138,
           "h": 853,
           "alt": "Blue Brushwork Tea Bowl No. 1, photo 3"
         }
@@ -113,26 +113,26 @@
       "photos": [
         {
           "file": "images/tea-bowls-2018/01.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 502,
+          "h": 502,
           "alt": "Spattered Tea Bowl No. 2, photo 1"
         },
         {
           "file": "images/tea-bowls-2018/02.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 731,
+          "h": 547,
           "alt": "Spattered Tea Bowl No. 2, photo 2"
         },
         {
           "file": "images/tea-bowls-2018/03.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 700,
+          "h": 525,
           "alt": "Spattered Tea Bowl No. 2, photo 3"
         },
         {
           "file": "images/tea-bowls-2018/04.jpg",
-          "w": 1280,
-          "h": 853,
+          "w": 404,
+          "h": 404,
           "alt": "Spattered Tea Bowl No. 2, photo 4"
         }
       ],
@@ -154,20 +154,20 @@
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
       "thumb": {
         "file": "images/tea-bowls-2016/01.jpg",
-        "w": 1250,
-        "h": 833
+        "w": 1046,
+        "h": 784
       },
       "photos": [
         {
           "file": "images/tea-bowls-2016/01.jpg",
-          "w": 1250,
-          "h": 833,
+          "w": 1046,
+          "h": 784,
           "alt": "Black Rimmed Teabowl, photo 1"
         },
         {
           "file": "images/tea-bowls-2016/02.jpg",
-          "w": 1800,
-          "h": 1200,
+          "w": 1515,
+          "h": 1137,
           "alt": "Black Rimmed Teabowl, photo 2"
         }
       ],

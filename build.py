@@ -226,6 +226,25 @@ def filters(root, active):
         for label, href in links) + "</nav>"
 
 
+def slider(images, root, alt):
+    """A piece's photos side by side, one at a time with arrows and small previews (on a phone they
+    stack, as on other pages). js/main.js wires up the buttons; without it the row still scrolls."""
+    figs = "\n".join(
+        f'<figure><a class="zoom" href="{root}{f}"><img src="{root}{f}" width="{w}" height="{h}" '
+        f'alt="{e(alt)}, photo {n + 1}" loading="{"eager" if n < 2 else "lazy"}" decoding="async"></a></figure>'
+        for n, (f, w, h) in enumerate(images))
+    if len(images) == 1:
+        return f'<div class="gallery">{figs}</div>'
+    thumbs = "".join(
+        f'<button type="button" data-i="{n}" aria-label="Photo {n + 1}"><img src="{root}{f}" alt="" loading="lazy"></button>'
+        for n, (f, w, h) in enumerate(images))
+    return (f'<div class="slider"><div class="gallery gallery-slider" tabindex="0" aria-label="Photos">{figs}</div>'
+            f'<div class="slider-ui"><button type="button" class="sl-prev" aria-label="Previous photo">‹</button>'
+            f'<span class="sl-count">1 / {len(images)}</span>'
+            f'<button type="button" class="sl-next" aria-label="Next photo">›</button></div>'
+            f'<div class="slider-thumbs">{thumbs}</div></div>')
+
+
 def gallery(images, root, alt):
     """images: (file, w, h). Big sets show as a grid of the wall thumbnails' size."""
     big = len(images) > GRID_GALLERY_MIN
@@ -256,7 +275,7 @@ def piece_page(p, prev_p, next_p, shop_items):
              f'<a href="{root}work/">All work</a>'
              f'<a href="{root}work/{next_p["id"]}/" rel="next">Next →</a></nav>')
     body = (f'<article class="project"><h1 class="page-title">{e(name)}</h1>{meta_html}{theme_html}{shop_html}{notes}'
-            f'{gallery(images, root, name)}</article>{pager}')
+            f'{slider(images, root, name)}</article>{pager}')
     write(f'work/{p["id"]}/index.html', layout(2, name, body, active="work/",
           description=f"{name} — work by Charles Talbot.", og_image=p["photos"][0]))
 

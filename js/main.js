@@ -11,6 +11,39 @@
     });
   }
 
+  // Piece pages: arrows, counter and previews for the row of photos
+  Array.prototype.forEach.call(document.querySelectorAll('.slider'), function (sl) {
+    var row = sl.querySelector('.gallery-slider');
+    var figs = row.querySelectorAll('figure');
+    var count = sl.querySelector('.sl-count');
+    var prev = sl.querySelector('.sl-prev');
+    var next = sl.querySelector('.sl-next');
+    var thumbs = sl.querySelectorAll('.slider-thumbs button');
+    function at() { return Math.round(row.scrollLeft / Math.max(1, figs[0].offsetWidth + 16)); }
+    function go(i) {
+      i = Math.max(0, Math.min(figs.length - 1, i));
+      row.scrollTo({ left: figs[i].offsetLeft - row.offsetLeft, behavior: 'smooth' });
+    }
+    function update() {
+      var i = at();
+      count.textContent = (i + 1) + ' / ' + figs.length;
+      prev.disabled = i === 0;
+      next.disabled = i === figs.length - 1;
+      Array.prototype.forEach.call(thumbs, function (t, k) { t.setAttribute('aria-current', String(k === i)); });
+    }
+    prev.addEventListener('click', function () { go(at() - 1); });
+    next.addEventListener('click', function () { go(at() + 1); });
+    Array.prototype.forEach.call(thumbs, function (t) {
+      t.addEventListener('click', function () { go(Number(t.getAttribute('data-i'))); });
+    });
+    row.addEventListener('keydown', function (ev) {
+      if (ev.key === 'ArrowLeft') { ev.preventDefault(); go(at() - 1); }
+      else if (ev.key === 'ArrowRight') { ev.preventDefault(); go(at() + 1); }
+    });
+    row.addEventListener('scroll', function () { window.requestAnimationFrame(update); }, { passive: true });
+    update();
+  });
+
   // Lightbox for project galleries
   var links = Array.prototype.slice.call(document.querySelectorAll('.gallery .zoom'));
   if (!links.length) { return; }

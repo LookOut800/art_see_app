@@ -43,7 +43,8 @@ BACKDROP_TARGET = 244   # backdrop gray after balancing (0-255); bright but not 
 MAX_EXPOSURE = 1.7      # never brighten or darken by more than this (about 3/4 stop)
 MAX_TINT = 1.35         # nor shift red or blue against green by more than this
 HIGHLIGHT_KNEE = 0.8    # linear level above which brightened highlights are compressed, not clipped
-MARGIN = 0.10           # space around a pot, as a fraction of the crop's long side
+MARGIN = 0.12           # space around a pot, as a fraction of the crop
+HEADROOM = 0.53         # where the middle of the pot sits, from the top of the crop (a little low)
 SRGB = ImageCms.createProfile("sRGB")
 
 
@@ -134,8 +135,16 @@ def subject_box(im):
     return tuple(round(v / scale) for v in box)
 
 
+def frame_for(box):
+    """The crop shape (w/h) that suits the piece: 4:5 for tall ones, square, or 4:3 for wide
+    bowls and groups."""
+    w, h = box[2] - box[0], box[3] - box[1]
+    return 4 / 3 if w / h > 1.25 else 1.0 if w / h > 0.85 else 4 / 5
+
+
 def fit_box(box, size, aspect, margin=MARGIN):
-    """Grow a subject box by the margin and to the aspect ratio (w/h), kept inside the image."""
+    """Grow a subject box by the margin and to the aspect ratio (w/h), kept inside the image.
+    The piece is centered left to right and sits a little low, with more room above it."""
     W, H = size
     x0, y0, x1, y1 = box
     cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
@@ -148,8 +157,12 @@ def fit_box(box, size, aspect, margin=MARGIN):
     if w > W or h > H:  # cannot fit with full margins: largest crop of that aspect instead
         s = min(W / w, H / h)
         w, h = w * s, h * s
+    room = 2 * min(cx, W - cx)  # widest crop still centered on the piece
+    if w > room:  # near the edge of the photo: narrower margins rather than an off-center piece
+        w = max(room, (x1 - x0) * 1.04)
+        h = min(max(w / aspect, (y1 - y0) * 1.04), H)
     x0 = min(max(cx - w / 2, 0), W - w)
-    y0 = min(max(cy - h / 2, 0), H - h)
+    y0 = min(max(cy - h * HEADROOM, 0), H - h)
     return round(x0), round(y0), round(x0 + w), round(y0 + h)
 
 
@@ -258,7 +271,7 @@ def process(src, kind="pot", cover=False, gray=None, rotate=0.0, crop=True):
             notes.append("backdrop balanced " + gains_text(g))
         box = subject_box(im) if crop else None
         if box:
-            aspect = 4 / 5 if cover else im.width / im.height
+            aspect = 4 / 5 if cover else frame_for(box)
             c = fit_box(box, im.size, aspect)
             if c != (0, 0, im.width, im.height):
                 im = im.crop(c)
