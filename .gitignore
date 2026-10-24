@@ -39,5 +39,7 @@ bower_components
 inbox
 __pycache__
 
-# Local secrets for wrangler dev (see .dev.vars.example)
-.dev.vars
+# Shop: local secrets for wrangler dev (see shop/.dev.vars.example) and build output
+shop/.dev.vars
+shop/dist
+shop/catalog.json

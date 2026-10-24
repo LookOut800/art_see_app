@@ -10,11 +10,6 @@ LICENSE
 tools
 .venv
 inbox
-node_modules
-package.json
-package-lock.json
-worker
-.dev.vars
-.dev.vars.example
 .wrangler
 STRIPE_INTEGRATION_TODO.md
+shop

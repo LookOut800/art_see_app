@@ -1,0 +1,24 @@
+{
+  // The shop: shop.charlestalbotart.com. A separate site from the portfolio.
+  // Build the pages first (python3 shop/build.py), then: cd shop && npx wrangler deploy
+  "name": "charlestalbot-shop",
+  "compatibility_date": "2026-10-01",
+  "main": "worker.js",
+  // Pages and photos are static files from dist/; only /api/* runs the Worker.
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  // Which pieces are held or sold. Create it once with: npx wrangler d1 create charlestalbot-shop
+  // and paste the database_id it prints here, then: npx wrangler d1 migrations apply charlestalbot-shop --remote
+  "d1_databases": [
+    { "binding": "DB", "database_name": "charlestalbot-shop", "database_id": "REPLACE_WITH_D1_DATABASE_ID" }
+  ],
+  "vars": {
+    // Checkout sends buyers back here. Locally, .dev.vars overrides it.
+    "SITE_URL": "https://shop.charlestalbotart.com"
+  }
+  // Secrets, never in this file: npx wrangler secret put STRIPE_SECRET_KEY (and STRIPE_WEBHOOK_SECRET)
+  // The address: add shop.charlestalbotart.com as a Custom Domain of this Worker in the Cloudflare dashboard.
+}

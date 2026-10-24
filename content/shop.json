@@ -1,9 +1,10 @@
 {
-  "_notes": "Set enabled to true only when real pieces are listed, policies are final and every available piece has a buy_url. build.py refuses to publish the shop while samples or draft policies remain.",
+  "_notes": "The shop at shop.charlestalbotart.com, built by python3 shop/build.py. A sale is a group of pieces with an opening and closing time (with time zone). Prices and details live here; whether a piece is held or sold lives in the shop database (see shop/stock.py). Set enabled to true only when a real sale is ready: shop/build.py refuses to publish while sample pieces or draft policies remain.",
   "enabled": false,
+  "site_url": "https://shop.charlestalbotart.com",
+  "portfolio_url": "https://charlestalbotart.com",
   "currency": "USD",
   "contact_email": "charlietalbot@gmail.com",
-  "intro": "Each piece is made by hand and is one of a kind. You receive the exact piece pictured.",
   "ships_within": "5 business days",
   "pickup": {
     "offered": true,
@@ -26,6 +27,8 @@
       "price": 30
     }
   },
+  "additional_item": 4,
+  "_shipping_note": "One insured rate per order: the largest piece's rate, plus additional_item for each extra piece.",
   "policies_draft": true,
   "policies": [
     {
@@ -49,130 +52,73 @@
       "body": "[Confirm food safe, dishwasher safe and microwave safe for each type of piece.] Hand wash sculptural and painted work gently, and keep paintings out of direct sun."
     }
   ],
+  "_made_note": "SKUs: CMT-2018-014 means made in 2018; CMT-ND-014 means no date is known (ND = no date). The page shows 'Made' from the SKU year, or from this made field if you set it (a guess such as c. 2021, or a range).",
+  "sales": [
+    {
+      "slug": "sample-sale",
+      "title": "Sample Sale",
+      "sample": true,
+      "opens": "2026-10-20T10:00:00-04:00",
+      "closes": "2026-12-31T20:00:00-05:00",
+      "intro": "A sample sale to try the shop with. Replace it with the real one: a title, when it opens and closes, a few sentences about the work, and the pieces in it.",
+      "items": [
+        "CMT-ND-901",
+        "CMT-2018-902",
+        "CMT-2016-903"
+      ]
+    }
+  ],
   "items": [
     {
       "sku": "CMT-ND-901",
       "title": "Blue Brushwork Tea Bowl No. 1",
       "price": 85,
-      "status": "available",
       "size": "small",
+      "made": "c. 2018",
       "dimensions": "W x D x H in. (placeholder)",
       "materials": "Materials (placeholder)",
-      "weight_oz": 14,
-      "pickup": true,
-      "series": "",
-      "buy_url": "",
-      "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
-      "thumb": {
-        "file": "images/blue-and-white-bowls-2018/thumbs/01.jpg",
-        "w": 640,
-        "h": 427
-      },
+      "pickup": true,
+      "sample": true,
       "photos": [
-        {
-          "file": "images/blue-and-white-bowls-2018/01.jpg",
-          "w": 967,
-          "h": 725,
-          "alt": "Blue Brushwork Tea Bowl No. 1, photo 1"
-        },
-        {
-          "file": "images/blue-and-white-bowls-2018/02.jpg",
-          "w": 831,
-          "h": 623,
-          "alt": "Blue Brushwork Tea Bowl No. 1, photo 2"
-        },
-        {
-          "file": "images/blue-and-white-bowls-2018/03.jpg",
-          "w": 1138,
-          "h": 853,
-          "alt": "Blue Brushwork Tea Bowl No. 1, photo 3"
-        }
-      ],
-      "made": "c. 2018"
+        "images/blue-and-white-bowls-2018/01.jpg",
+        "images/blue-and-white-bowls-2018/02.jpg",
+        "images/blue-and-white-bowls-2018/03.jpg"
+      ]
     },
     {
       "sku": "CMT-2018-902",
       "title": "Spattered Tea Bowl No. 2",
       "price": 70,
-      "status": "available",
       "size": "small",
+      "made": "",
       "dimensions": "W x D x H in. (placeholder)",
       "materials": "Materials (placeholder)",
-      "weight_oz": 14,
-      "pickup": true,
-      "series": "",
-      "buy_url": "",
-      "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
-      "thumb": {
-        "file": "images/tea-bowls-2018/thumbs/01.jpg",
-        "w": 640,
-        "h": 427
-      },
+      "pickup": true,
+      "sample": true,
       "photos": [
-        {
-          "file": "images/tea-bowls-2018/01.jpg",
-          "w": 502,
-          "h": 502,
-          "alt": "Spattered Tea Bowl No. 2, photo 1"
-        },
-        {
-          "file": "images/tea-bowls-2018/02.jpg",
-          "w": 731,
-          "h": 547,
-          "alt": "Spattered Tea Bowl No. 2, photo 2"
-        },
-        {
-          "file": "images/tea-bowls-2018/03.jpg",
-          "w": 700,
-          "h": 525,
-          "alt": "Spattered Tea Bowl No. 2, photo 3"
-        },
-        {
-          "file": "images/tea-bowls-2018/04.jpg",
-          "w": 404,
-          "h": 404,
-          "alt": "Spattered Tea Bowl No. 2, photo 4"
-        }
-      ],
-      "made": ""
+        "images/tea-bowls-2018/01.jpg",
+        "images/tea-bowls-2018/02.jpg",
+        "images/tea-bowls-2018/03.jpg",
+        "images/tea-bowls-2018/04.jpg"
+      ]
     },
     {
       "sku": "CMT-2016-903",
       "title": "Black Rimmed Teabowl",
       "price": 95,
-      "status": "sold",
       "size": "small",
+      "made": "",
       "dimensions": "W x D x H in. (placeholder)",
       "materials": "Materials (placeholder)",
-      "weight_oz": 14,
-      "pickup": true,
-      "series": "",
-      "buy_url": "",
-      "sample": true,
       "description": "Sample listing. Replace this with a couple of sentences about the piece: how it was made, what to notice, how it feels in the hand.",
-      "thumb": {
-        "file": "images/tea-bowls-2016/01.jpg",
-        "w": 1046,
-        "h": 784
-      },
+      "pickup": true,
+      "sample": true,
       "photos": [
-        {
-          "file": "images/tea-bowls-2016/01.jpg",
-          "w": 1046,
-          "h": 784,
-          "alt": "Black Rimmed Teabowl, photo 1"
-        },
-        {
-          "file": "images/tea-bowls-2016/02.jpg",
-          "w": 1515,
-          "h": 1137,
-          "alt": "Black Rimmed Teabowl, photo 2"
-        }
-      ],
-      "made": ""
+        "images/tea-bowls-2016/01.jpg",
+        "images/tea-bowls-2016/02.jpg"
+      ]
     }
-  ],
-  "_made_note": "SKUs: CMT-2018-014 means made in 2018; CMT-ND-014 means no date is known (ND = no date). The page shows 'Made' from the SKU year, or from this made field if you set it (a guess such as c. 2021, or a range)."
+  ]
 }

@@ -3,16 +3,7 @@
   // The name must match the project name in the Cloudflare dashboard.
   "name": "art-see-app",
   "compatibility_date": "2026-10-01",
-  // Only /api/* runs the Worker (Stripe Checkout); every other URL is a static file.
-  "main": "worker/index.js",
   "assets": {
-    "directory": "./",
-    "binding": "ASSETS",
-    "run_worker_first": ["/api/*"]
-  },
-  "vars": {
-    // Where Checkout sends buyers back to. Locally, .dev.vars overrides it.
-    "DOMAIN": "https://charlestalbotart.com"
+    "directory": "./"
   }
-  // STRIPE_SECRET_KEY is a secret: npx wrangler secret put STRIPE_SECRET_KEY
 }
