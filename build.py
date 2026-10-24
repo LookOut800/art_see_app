@@ -31,9 +31,10 @@ EXTERNAL = [
     ("Instagram", "https://www.instagram.com/blonderrr/"),
     ("Toshiko Takaezu Foundation", "https://www.toshikotakaezufoundation.org/"),
 ]
-# The wall can be narrowed to one kind of work: /work/<slug>/ shows pieces whose kind is in the set
-KINDS = [("sculpture", "Sculpture", {"sculpture"}), ("pottery", "Pottery", {"pottery"}),
-         ("paintings", "Paintings", {"painting"}), ("drawings", "Drawings", {"drawing"})]
+# The wall is shown one kind of work at a time: /work/<slug>/ shows pieces whose kind is in the set.
+# The first is the default, shown on the home page and at /work/; /work/all/ shows everything.
+KINDS = [("pottery", "Pottery", {"pottery"}), ("sculpture", "Sculpture", {"sculpture"}),
+         ("painting", "Painting", {"painting"}), ("drawing", "Drawing", {"drawing"})]
 KIND_LABEL = {"sculpture": "Sculpture", "pottery": "Pottery", "painting": "Painting", "drawing": "Drawing"}
 
 # Earlier URLs (the old Cargo site, then project pages of this one) -> where that work is now.
@@ -41,7 +42,7 @@ KIND_LABEL = {"sculpture": "Sculpture", "pottery": "Pottery", "painting": "Paint
 _OLD = {
     "two-pots": "/work/2016-03/", "pots-2024": "/themes/towers/", "cut-bonnet-vase": "/work/nd-02/",
     "tea-bowls-blue-brushwork-2018": "/themes/blue-brushwork/", "painted-lyric-bowls-s-s": "/work/pottery/",
-    "tea-bowls-spattered-glazes-2018": "/themes/tea-bowls/", "small-color-paintings": "/work/paintings/",
+    "tea-bowls-spattered-glazes-2018": "/themes/tea-bowls/", "small-color-paintings": "/work/painting/",
     "tall-sprayed-vase-and-handled-vase": "/work/2016-01/", "turned-vase-and-blue-globe-bowl": "/work/2017-01/",
     "teabowls-2016": "/themes/tea-bowls/", "burned-mountain-vase": "/work/nd-01/",
     "brittany": "/brittany-gallery-show-2022/", "recent-work": "/work/", "archives": "/work/",
@@ -219,7 +220,7 @@ def wall(pieces, root, by_year=True):
 
 
 def filters(root, active):
-    links = [("All", "work/")] + [(label, f"work/{slug}/") for slug, label, _ in KINDS]
+    links = [(label, f"work/{slug}/") for slug, label, _ in KINDS] + [("All", "work/all/")]
     return '<nav class="filters" aria-label="Kinds of work">' + "".join(
         f'<a href="{root}{href}"{" aria-current=\"page\"" if href == active else ""}>{e(label)}</a>'
         for label, href in links) + "</nav>"
@@ -433,13 +434,15 @@ def main():
         shutil.rmtree(os.path.join(ROOT, href.strip("/")), ignore_errors=True)
 
     og = pieces[0]["photos"][0]
-    write("index.html", layout(0, "", filters("", "work/") + wall(pieces, ""), og_image=og, body_class="home"))
-    write("work/index.html", layout(1, "Work", '<h1 class="page-title">Work</h1>' + filters("../", "work/")
-                                    + wall(pieces, "../"), active="work/", og_image=og))
-    for slug, label, kinds in KINDS:
+    for slug, label, kinds in KINDS + [("all", "All work", set(KIND_LABEL))]:
         subset = [p for p in pieces if p["kind"] in kinds]
         body = f'<h1 class="page-title">{e(label)}</h1>' + filters("../../", f"work/{slug}/") + wall(subset, "../../")
         write(f"work/{slug}/index.html", layout(2, label, body, active="work/", og_image=subset[0]["photos"][0]))
+    default, label, kinds = KINDS[0]
+    subset = [p for p in pieces if p["kind"] in kinds]
+    write("index.html", layout(0, "", filters("", f"work/{default}/") + wall(subset, ""), og_image=og, body_class="home"))
+    write("work/index.html", layout(1, label, f'<h1 class="page-title">{e(label)}</h1>' + filters("../", f"work/{default}/")
+                                    + wall(subset, "../"), active="work/", og_image=og))
     for i, p in enumerate(pieces):
         piece_page(p, pieces[i - 1], pieces[(i + 1) % len(pieces)], shop_items)
 
@@ -489,7 +492,7 @@ def main():
         shop_check()  # still validates the data, but publishes nothing
 
     write("_redirects", "".join(f"{old} {new} 301\n" for old, new in REDIRECTS.items()))
-    print(f"Built {len(pieces)} pieces, {len(KINDS) + 2} wall pages, {len(THEMES)} themes, {len(VIEWS)} views + {len(NAV2)} others")
+    print(f"Built {len(pieces)} pieces, {len(KINDS) + 3} wall pages, {len(THEMES)} themes, {len(VIEWS)} views + {len(NAV2)} others")
 
 
 if __name__ == "__main__":
