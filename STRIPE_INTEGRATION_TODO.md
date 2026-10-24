@@ -61,10 +61,10 @@ All commands run from the repo root unless they start with `cd shop`.
    - To have Stripe's webhook reach your machine: install the Stripe CLI, run `stripe listen --forward-to localhost:8787/api/webhook`, and put the `whsec_...` it prints in `.dev.vars` as `STRIPE_WEBHOOK_SECRET`.
 4. **Go live** (Cloudflare account steps; the domain's DNS is already on Cloudflare):
    - `cd shop && npx wrangler d1 create charlestalbot-shop` and paste the `database_id` into `shop/wrangler.jsonc`, then `npx wrangler d1 migrations apply charlestalbot-shop --remote`.
-   - `npx wrangler secret put STRIPE_SECRET_KEY` (the **live** key) and `npx wrangler secret put STRIPE_WEBHOOK_SECRET`.
+   - `npx wrangler secret put STRIPE_SECRET_KEY` (the **live** key) and `npx wrangler secret put STRIPE_WEBHOOK_SECRET`. For the sample sale: `STRIPE_TEST_SECRET_KEY` (`sk_test_...`) and `STRIPE_TEST_WEBHOOK_SECRET` (from a webhook destination made in test mode, same URL).
    - In the Stripe Dashboard, add a webhook endpoint `https://shop.charlestalbotart.com/api/webhook` for the events `checkout.session.completed` and `checkout.session.expired`; its signing secret is the `STRIPE_WEBHOOK_SECRET` above.
    - `.venv/bin/python shop/build.py --release && cd shop && npx wrangler deploy`.
-   - In the Cloudflare dashboard, add `shop.charlestalbotart.com` as a Custom Domain of the `charlestalbot-shop` Worker. `shop.charlestalbotart.com` already resolves to Cloudflare today (probably a wildcard or old record); check what it is first so nothing collides.
+   - `shop.charlestalbotart.com` is a Custom Domain in `shop/wrangler.jsonc` (`routes`); deploying sets up its DNS record and certificate.
    - Set `"enabled": true` in `content/shop.json` and rebuild the portfolio (`.venv/bin/python build.py`) to show its "Shop" link.
 
 ## Project structure
