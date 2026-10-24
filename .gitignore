@@ -38,3 +38,6 @@ bower_components
 # Full-size photo originals and review sheets; only web-sized images belong in the repo
 inbox
 __pycache__
+
+# Local secrets for wrangler dev (see .dev.vars.example)
+.dev.vars

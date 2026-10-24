@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local testing with `npx wrangler dev` (.dev.vars is not committed).
+# Don't put any keys in code. See https://docs.stripe.com/keys-best-practices.
+# Get the test key from the Stripe Dashboard -> https://dashboard.stripe.com/test/apikeys
+STRIPE_SECRET_KEY=sk_test_...
+# The address wrangler dev serves the site on
+DOMAIN=http://localhost:8787

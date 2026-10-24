@@ -1,0 +1,8 @@
+{
+  "name": "art-see-app",
+  "private": true,
+  "description": "Only for the Cloudflare Worker in worker/ (Stripe Checkout). The site itself is static and built with python3 build.py.",
+  "dependencies": {
+    "stripe": "22.6.2"
+  }
+}
