@@ -193,7 +193,7 @@ def build():
                 f'<p class="card-meta">{" · ".join(e(b) for b in item_bits(it))}</p>'
                 f'<p class="card-buy"><span class="price">{money(it["price"])}</span>{add_button(it, s)}</p></div></article>')
             item_page(it, s)
-        sample = '<p class="note">Sample sale: these pieces and prices are placeholders.</p>' if s.get("sample") else ""
+        sample = '<p class="note">Sample sale in test mode: these pieces and prices are placeholders, and no real payment is taken. Try card 4242 4242 4242 4242.</p>' if s.get("sample") else ""
         body = (f'<section class="sale-head"><h1>{e(s["title"])}</h1>{sale_state(s)}{sample}'
                 f'<div class="intro">{paragraphs(s.get("intro", ""))}</div></section>'
                 f'<div class="cards">{"".join(tiles)}</div>')
@@ -226,12 +226,16 @@ def build():
     policies(SHOP)
 
     # What the Worker trusts: prices, sizes and sale times from this file, not from the browser
+    by_slug = {s["slug"]: s for s in SHOP["sales"]}
     catalog = {
         "currency": SHOP["currency"], "shipping": SHOP["shipping"], "additional_item": SHOP["additional_item"],
         "pickup": SHOP["pickup"],
         "sales": {s["slug"]: {"opens": s["opens"], "closes": s["closes"]} for s in SHOP["sales"]},
         "items": {sku: {"title": it["title"], "price": it["price"], "size": it["size"], "pickup": it.get("pickup", True),
-                        "sale": in_sale[sku], "image": cards[sku][0]} for sku, it in items.items() if sku in in_sale},
+                        "sale": in_sale[sku], "image": cards[sku][0],
+                        # Sample pieces check out only through Stripe's test mode (STRIPE_TEST_SECRET_KEY)
+                        "test": bool(it.get("sample") or by_slug[in_sale[sku]].get("sample"))}
+                  for sku, it in items.items() if sku in in_sale},
     }
     json.dump(catalog, open(os.path.join(HERE, "catalog.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)
     print(f'Built the shop: {len(sales)} sales, {len(in_sale)} pieces' + ("" if release else " (preview: samples allowed)"))

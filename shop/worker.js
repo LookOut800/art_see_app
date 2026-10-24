@@ -9,6 +9,8 @@
 // Prices, titles and sale dates come from catalog.json, which shop/build.py writes from content/shop.json,
 // so nothing the browser sends can change a price. Which pieces are held or sold is in D1 (env.DB).
 // Secrets come from the environment: STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET; SITE_URL is a var.
+// Sample pieces ("test" in catalog.json) check out only in Stripe's test mode, with STRIPE_TEST_SECRET_KEY
+// and STRIPE_TEST_WEBHOOK_SECRET, so a sample sale on the live shop can never take real money.
 import Stripe from "stripe";
 import catalog from "./catalog.json";
 
@@ -81,6 +83,15 @@ async function checkout(request, env) {
   const items = skus.map((sku) => catalog.items[sku]);
   const closed = skus.filter((sku, i) => !items[i] || !saleOpen(items[i].sale));
   if (closed.length) return json({ unavailable: closed, reason: "not on sale" }, 409);
+  const test = items.some((it) => it.test);
+  if (test && !items.every((it) => it.test)) {
+    return json({ error: "Sample pieces and real pieces can't be checked out together. Remove the samples." }, 400);
+  }
+  const key = test ? env.STRIPE_TEST_SECRET_KEY : env.STRIPE_SECRET_KEY;
+  if (!key || (test && !/^(sk|rk)_test_/.test(key))) {
+    console.log(test ? "No Stripe test key (STRIPE_TEST_SECRET_KEY) for sample pieces" : "No STRIPE_SECRET_KEY");
+    return json({ error: "Checkout is not available right now. Please try again." }, 502);
+  }
 
   // Hold every piece in the bag, or none: a piece can be held only if it is available or its hold ran out
   const hold = crypto.randomUUID();
@@ -100,7 +111,7 @@ async function checkout(request, env) {
     return json({ unavailable, reason: "taken" }, 409);
   }
 
-  const stripe = new Stripe(env.STRIPE_SECRET_KEY);
+  const stripe = new Stripe(key);
   const mode = "payment"; // each piece is a one-time sale
   const sessionParams = {
     // Configured in Checkout Studio
@@ -149,18 +160,21 @@ async function checkout(request, env) {
 }
 
 async function webhook(request, env) {
-  const stripe = new Stripe(env.STRIPE_SECRET_KEY);
+  // Live and test mode each sign with their own endpoint secret; accept either
+  const stripe = new Stripe(env.STRIPE_SECRET_KEY || env.STRIPE_TEST_SECRET_KEY);
+  const body = await request.text();
+  const signature = request.headers.get("stripe-signature");
   let event;
-  try {
-    event = await stripe.webhooks.constructEventAsync(
-      await request.text(),
-      request.headers.get("stripe-signature"),
-      env.STRIPE_WEBHOOK_SECRET,
-      undefined,
-      Stripe.createSubtleCryptoProvider()
-    );
-  } catch (err) {
-    console.log("Webhook signature verification failed.", err.message);
+  for (const secret of [env.STRIPE_WEBHOOK_SECRET, env.STRIPE_TEST_WEBHOOK_SECRET].filter(Boolean)) {
+    try {
+      event = await stripe.webhooks.constructEventAsync(body, signature, secret, undefined, Stripe.createSubtleCryptoProvider());
+      break;
+    } catch (err) {
+      // try the other secret
+    }
+  }
+  if (!event) {
+    console.log("Webhook signature verification failed.");
     return new Response("Bad signature", { status: 400 });
   }
   const session = event.data.object;

@@ -4,6 +4,8 @@ The shop is its own site in [shop/](shop/), meant for **shop.charlestalbotart.co
 
 Everything below was tested locally with a placeholder key: pages, the bag, holds (a second buyer is turned away), a failed checkout releasing its holds, and a signed webhook marking pieces sold. **A real Checkout page has not been opened yet**: that needs your Stripe test key (Setup, step 3).
 
+**Test mode on the live shop:** pieces marked `"sample": true` (or in a sample sale) check out only with `STRIPE_TEST_SECRET_KEY`, never the live key, and the webhook accepts both the live and the test endpoint's signing secret (`STRIPE_WEBHOOK_SECRET`, `STRIPE_TEST_WEBHOOK_SECRET`). So the sample sale can stay up for trying checkout with test cards while real sales use the live key. A bag can't mix sample and real pieces.
+
 ## Values to Replace
 
 The following values are placeholders and must be updated before going live.
