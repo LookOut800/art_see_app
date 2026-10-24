@@ -7,9 +7,10 @@
 Edits are limited to what a careful photographer would do by hand, so glaze color and form are
 not misrepresented: no generative "enhance", no retouching of the work itself.
 
-  pot       white balance and exposure taken from the backdrop (the bright, nearly gray pixels
-            around the edge of the frame), then cropped to the piece with even margins.
-            On a gradient or colored backdrop the color is left as shot (only cropped).
+  pot       on a white or gray backdrop (even one that falls off to dark at the top), white
+            balance and exposure are set so its best-lit part reads as clean white; then the
+            photo is cropped to the piece with even margins. A colored backdrop (blue paper,
+            wood, a painted wall) is left as shot and only cropped.
   painting  finds the edge of the canvas (or, for drawing, the sheet of paper), corrects the
   drawing   perspective and crops to it, but only when the edge is clear; otherwise it is left
             uncropped. Color is left as shot unless --gray marks a neutral patch (a gray card).
@@ -39,7 +40,9 @@ except ImportError:  # HEIC files then fail to open with a clear message below
 LONGEST = 1800
 QUALITY = 85
 BACKDROP_TARGET = 244   # backdrop gray after balancing (0-255); bright but not blown out
-MAX_GAIN = 1.35         # never push a channel or the exposure further than this
+MAX_EXPOSURE = 1.7      # never brighten or darken by more than this (about 3/4 stop)
+MAX_TINT = 1.35         # nor shift red or blue against green by more than this
+HIGHLIGHT_KNEE = 0.8    # linear level above which brightened highlights are compressed, not clipped
 MARGIN = 0.10           # space around a pot, as a fraction of the crop's long side
 SRGB = ImageCms.createProfile("sRGB")
 
@@ -71,19 +74,29 @@ def to_srgb(a):
 
 def apply_gains(im, gains):
     """Scale each channel in linear light, which is what a white-balance/exposure change is."""
-    a = to_linear(np.asarray(im, dtype=np.float32))
-    return Image.fromarray(to_srgb(a * np.asarray(gains, dtype=np.float32)).round().astype(np.uint8))
+    a = to_linear(np.asarray(im, dtype=np.float32)) * np.asarray(gains, dtype=np.float32)
+    # roll off the top instead of clipping, so white glaze and highlights keep their detail
+    k = HIGHLIGHT_KNEE
+    a = np.where(a > k, k + (1 - k) * np.tanh((a - k) / (1 - k)), a)
+    return Image.fromarray(to_srgb(a).round().astype(np.uint8))
 
 
 def gains_for(rgb, target=BACKDROP_TARGET):
     """Per-channel linear gains that turn this color into a neutral gray of the target level."""
     lin = to_linear(np.asarray(rgb, dtype=np.float64))
     want = to_linear(np.array([target] * 3, dtype=np.float64))
-    return np.clip(want / np.maximum(lin, 1e-4), 1 / MAX_GAIN, MAX_GAIN)
+    g = want / np.maximum(lin, 1e-4)
+    tint = np.clip(g / g[1], 1 / MAX_TINT, MAX_TINT)  # capped separately, so a big exposure
+    return tint * np.clip(g[1], 1 / MAX_EXPOSURE, MAX_EXPOSURE)  # change keeps the color fix
 
 
 def backdrop_color(im):
-    """Median color of the bright, low-saturation pixels in a band around the frame, or None."""
+    """Color of the brightest part of a white or gray backdrop, or None for a colored one.
+
+    Looks at a band around the frame. A white sweep that falls off to gray or near black at the
+    top still counts: its best-lit part (usually the floor in front of the piece) is what should
+    read as clean white. A backdrop with a lot of clearly colored pixels (a blue gradient, wood,
+    a painted wall) is a deliberate color and returns None."""
     a = np.asarray(im.resize((300, int(300 * im.height / im.width))), dtype=np.float32)
     h, w = a.shape[:2]
     band = np.zeros((h, w), bool)
@@ -91,10 +104,14 @@ def backdrop_color(im):
     band[:bh], band[-bh:], band[:, :bw], band[:, -bw:] = True, True, True, True
     px = a[band]
     mx, mn = px.max(1), px.min(1)
-    ok = (mx > 150) & ((mx - mn) / np.maximum(mx, 1) < 0.12)
-    if ok.mean() < 0.5:  # most of the border is not a light neutral backdrop
+    sat = (mx - mn) / np.maximum(mx, 1)
+    if (sat > 0.22).mean() > 0.3:
         return None
-    return np.median(px[ok], axis=0)
+    light = px[(sat < 0.2) & (mx > 120)]
+    if len(light) < 0.3 * len(px):
+        return None
+    lum = light.mean(1)
+    return np.median(light[lum >= np.percentile(lum, 80)], axis=0)
 
 
 def subject_box(im):
@@ -221,7 +238,7 @@ def process(src, kind="pot", cover=False, gray=None, rotate=0.0, crop=True):
         if gray:
             pass
         elif bg is None:
-            notes.append("backdrop not neutral (gradient, wood, color): color left as shot")
+            notes.append("colored backdrop: color left as shot")
         else:
             g = gains_for(bg)
             im = apply_gains(im, g)
